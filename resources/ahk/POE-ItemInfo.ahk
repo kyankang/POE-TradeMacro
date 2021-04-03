@@ -218,8 +218,12 @@ class Fonts {
 		{
 			Options .= "s" FontSize_
 		}
-		Gui Font, %Options%, Courier New
-		Gui Font, %Options%, Consolas
+		If (true) {
+			Gui Font, %Options%, Courier New
+		} Else {
+			Gui Font, %Options%, Courier New
+			Gui Font, %Options%, Consolas
+		}
 		Gui Add, Text, HwndHidden h0 w0 x0 y0,
 		SendMessage, 0x31,,,, ahk_id %Hidden%
 		return ErrorLevel
@@ -254,10 +258,18 @@ class Fonts {
 
 	SetFixedFont(FontSize_=-1, Options = "")
 	{		
-		If (FontSize_ != -1) {
-			FontSize_ := this.FontSizeFixed
+		If (true) {
+			If (FontSize_ == -1) {
+				FontSize_ := this.FontSizeFixed
+			} Else {
+				this.FontSizeFixed := FontSize_
+			}
 		} Else {
-			this.FontSizeFixed := FontSize_
+			If (FontSize_ != -1) {
+				FontSize_ := this.FontSizeFixed
+			} Else {
+				this.FontSizeFixed := FontSize_
+			}
 		}
 		FixedFont := this.CreateFixedFont(FontSize_, Options)
 		
@@ -519,7 +531,7 @@ GoSub, InitGDITooltip
 	Item data translation, won't be used for now.
 	Todo: remove test/debug code
 */
-If (false) {
+If (true) {
 	global currentLocale := ""
 	_Debug := true
 	SplashUI.SetSubMessage("Downloading language files...")
@@ -539,10 +551,12 @@ Menu, Tray, NoStandard
 Menu, Tray, Add, Reload Script (Use only this), ReloadScript
 Menu, Tray, Add ; Separator
 Menu, Tray, Add, About..., MenuTray_About
-/*
+
+If (currentLocale == "ko") {
 	;Item data Translation, won't be used for now.
 	Menu, Tray, Add, Translate Item, ShowTranslationUI
-*/
+}
+
 Menu, Tray, Add, Show all assigned Hotkeys, ShowAssignedHotkeys
 Menu, Tray, Add, % Globals.Get("SettingsUITitle", "PoE ItemInfo Settings"), ShowSettingsUI
 Menu, Tray, Add, Check for updates, CheckForUpdates
@@ -6954,7 +6968,12 @@ PreProcessContents(CBContents)
 	
      Needle := "--------`r`n--------`r`n"
 	StringReplace, CBContents, CBContents, %Needle%, --------`r`n, All
-	
+
+	If (currentLocale == "ko") {
+		;Item Data Translation, won't be used for now.
+		CBContents := PoEScripts_TranslateItemData(CBContents, translationData, currentLocale, retObj, retCode)
+	}
+
 	return CBContents
 }
 
@@ -6994,13 +7013,7 @@ ParseClipBoardChanges(debug = false)
 	
 	CBContents := GetClipboardContents()
 	CBContents := PreProcessContents(CBContents)
-	/*
-		;Item Data Translation, won't be used for now.
-		CBContents := PoEScripts_TranslateItemData(CBContents, translationData, currentLocale, retObj, retCode)
-	*/	
-	
 	Globals.Set("ItemText", CBContents)
-	
 	ParsedData := ParseItemData(CBContents)
 	ParsedData := PostProcessData(ParsedData)
 	
@@ -7964,7 +7977,12 @@ ParseItemData(ItemDataText, ByRef RarityLevel="")
 	; AHK only allows splitting on single chars, so first
 	; replace the split string (\r\n--------\r\n) with AHK's escape char (`)
 	; then do the actual string splitting...
-	StringReplace, TempResult, ItemDataText, `r`n--------`r`n, ``, All
+
+	If (currentLocale == "ko") {
+		StringReplace, TempResult, ItemDataText, `n--------`n, ``, All
+	} Else {
+		StringReplace, TempResult, ItemDataText, `r`n--------`r`n, ``, All
+	}
 	StringSplit, ItemDataParts, TempResult, ``,
 	
 	ItemData.NamePlate	:= ItemDataParts1

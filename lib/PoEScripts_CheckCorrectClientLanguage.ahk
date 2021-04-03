@@ -18,8 +18,14 @@
 	For key, val in configs {
 		IniRead, language, %val%, LANGUAGE, language
 		If (language != "ERROR") {
-			If (language != "en") {
-				wrongLanguage := true
+			If (language == "ko-KR") {
+				If (language != "en" and language != "ko-KR") {
+					wrongLanguage := true
+				}
+			} Else {
+				If (language != "en") {
+					wrongLanguage := true
+				}			
 			}
 			RegExMatch(val, "i)([^\\]+)\.[^\\]+$", readFile)
 			Break

@@ -49,6 +49,9 @@ PoEScripts_GetClientLanguage() {
 	For key, val in configs {
 		IniRead, language, %val%, LANGUAGE, language
 		If (language != "ERROR") {
+			If (language == "ko-KR") {
+				language := "ko"
+			}
 			Return language
 		}
 	}
@@ -61,7 +64,11 @@ PoEScripts_DownloadFileSet(short, long, skipDL = false) {
 
 	files := []
 	For key, val in ["stats", "static", "items"] {
-		files.push(["https://" prefix ".pathofexile.com/api/trade/data/" val, short "_" val ".json", val])
+		If (short == "ko") {
+			files.push(["https://poe.game.daum.net/api/trade/data/" val, short "_" val ".json", val])
+		} Else {
+			files.push(["https://" prefix ".pathofexile.com/api/trade/data/" val, short "_" val ".json", val])
+		}
 	}	
 	If (short != "en") {
 		files.push(["http://web.poecdn.com/js/translate." long ".js", short "_basic.json", "basic"])
@@ -94,7 +101,11 @@ PoEScripts_DownloadFileSet(short, long, skipDL = false) {
 			If (InStr(url, "web.poecdn.com")) {
 				ioHdr.push("Host: web.poecdn.com")
 			} Else {
-				ioHdr.push("Host: " prefix ".pathofexile.com")
+				If (short == "ko") {
+					ioHdr.push("Host: poe.game.daum.net")
+				} Else {
+					ioHdr.push("Host: " prefix ".pathofexile.com")
+				}
 			}
 			output :=  PoEScripts_Download(url, postData := "", ioHdr := reqHeaders, "SaveAs: " filePath "_temp", true, false, true)
 		}
@@ -252,6 +263,10 @@ PoEScripts_ParseAvailableLanguages(returnDefaults = false) {
 		languages["fr"] := "fr_FR"
 		languages["ru"] := "ru_RU"
 		languages["th"] := "th_TH"
+		
+		If (true) {
+			languages["ko"] := "ko_KR"
+		}
 	}
 
 	Return languages

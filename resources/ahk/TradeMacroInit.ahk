@@ -1616,7 +1616,11 @@ TradeFunc_StartSplashScreen(TradeReleaseVersion) {
 
 	Random, randomNum, 1, initArray.MaxIndex()
 	
-	global SplashUI := new SplashUI("on", "PoE-TradeMacro", initArray[randomNum], "", TradeReleaseVersion, A_ScriptDir "\resources\images\greydot.png")
+	If (true) {
+		global SplashUI := new SplashUI("on", "PoE-TradeMacro-KO", initArray[randomNum], "", TradeReleaseVersion, A_ScriptDir "\resources\images\greydot.png")
+	} Else {
+		global SplashUI := new SplashUI("on", "PoE-TradeMacro", initArray[randomNum], "", TradeReleaseVersion, A_ScriptDir "\resources\images\greydot.png")
+	}
 }
 
 TradeFunc_FinishTMInit(argumentMergeScriptPath) {	

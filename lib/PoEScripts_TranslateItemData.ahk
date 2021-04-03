@@ -8,31 +8,31 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 		status := "Translation aborted"
 		Return data
 	}
-					; ["en", "de", "fr", "pt", "ru", "th", "es"]
-	rarityTags		:= ["Rarity", "Seltenheit", "Rareté", "Raridade", "Редкость", "ความหายาก", "Rareza"]	; hardcoded, no reliable translation source
+					; ["en", "de", "fr", "pt", "ru", "th", "es", "ko"]
+	rarityTags		:= ["Rarity", "Seltenheit", "Rareté", "Raridade", "Редкость", "ความหายาก", "Rareza", "아이템 희귀도"]	; hardcoded, no reliable translation source
 	
-	rareTranslation	:= ["Rare", "Selten", "Rare", "Raro", "Редкий", "แรร์", "Raro"]					; hardcoded, at least the german term for "rare" is "wrong" and differently translated elsewhere
-	superiorTag		:= ["Superior", "(hochwertig)", "de qualité", "Superior", "качества", "Superior", "Superior"]
-	itemQuantity		:= ["Item Quantity", "Gegenstandsmenge", "Quantité d'objets", "Quantidade de Itens", "Количество предметов", "จำนวนไอเท็ม", "Cantidad de Ítems"]
-	itemRarity		:= ["Item Rarity", "Gegenstandsseltenheit", "Rareté des objets", "Raridade de Itens", "Редкость предметов", "ระดับความหายากของไอเทม", "Rareza de Ítem"]
-	packSize			:= ["Monster Packsize", "Monstergruppengröße", "Taille des groupes de monstres", "Tamanho do Grupo de Monstros", "Размер групп монстров", "ขนาดบรรจุมอนสเตอร์", "Tamaño de Grupos de Monstruos"]
-	weaponRange		:= ["Weapon Range", "Waffenreichweite", "", "", "", "", ""]
-	physicalDamage		:= ["Physical Damage", "Physischer Schaden", "", "", "", "", ""]
-	elementalDamage	:= ["Elemental Damage", "Elementarschaden", "", "", "", "", ""]
-	chanceToBlock		:= ["Chance to Block", "Chance auf Blocken", "", "", "", "", ""]
-	manaCost			:= ["Mana Cost", "Manakosten", "", "", "", "", ""]
-	castTime			:= ["Cast Time", "Zauberzeit", "", "", "", "", ""]
-	cooldownTime		:= ["Cooldown Time", "Abklingzeit", "", "", "", "", ""]
-	damageEffectiveness	:= ["Damage Effectiveness", "Effektivität zusätzlichen Schadens", "", "", "", "", ""]
-	manaReserved		:= ["Mana Reserved", "Mana reserviert", "", "", "", "", ""]
-	manaMultiplier		:= ["Mana Multiplier", "Manamultiplikator", "", "", "", "", ""]
-	evasionRating		:= ["Evasion Rating", "Ausweichwert", "", "", "", "", ""]
-	limitedTo			:= ["Limited to", "Begrenzt auf", "", "", "", "", ""]
-	radius			:= ["Radius", "Radius", "", "", "", "", ""]
+	rareTranslation	:= ["Rare", "Selten", "Rare", "Raro", "Редкий", "แรร์", "Raro", "희귀"]					; hardcoded, at least the german term for "rare" is "wrong" and differently translated elsewhere
+	superiorTag		:= ["Superior", "(hochwertig)", "de qualité", "Superior", "качества", "Superior", "Superior", "상급"]
+	itemQuantity		:= ["Item Quantity", "Gegenstandsmenge", "Quantité d'objets", "Quantidade de Itens", "Количество предметов", "จำนวนไอเท็ม", "Cantidad de Ítems", "아이템 수량"]
+	itemRarity		:= ["Item Rarity", "Gegenstandsseltenheit", "Rareté des objets", "Raridade de Itens", "Редкость предметов", "ระดับความหายากของไอเทม", "Rareza de Ítem", "아이템 희귀도"]
+	packSize			:= ["Monster Packsize", "Monstergruppengröße", "Taille des groupes de monstres", "Tamanho do Grupo de Monstros", "Размер групп монстров", "ขนาดบรรจุมอนสเตอร์", "Tamaño de Grupos de Monstruos", "몬스터 팩 크기"]
+	weaponRange		:= ["Weapon Range", "Waffenreichweite", "", "", "", "", "", "무기 공격 범위"]
+	physicalDamage		:= ["Physical Damage", "Physischer Schaden", "", "", "", "", "", "물리 피해"]
+	elementalDamage	:= ["Elemental Damage", "Elementarschaden", "", "", "", "", "", "원소 피해"]
+	chanceToBlock		:= ["Chance to Block", "Chance auf Blocken", "", "", "", "", "", "막아낼 확률"]
+	manaCost			:= ["Mana Cost", "Manakosten", "", "", "", "", "", "총 마나"]
+	castTime			:= ["Cast Time", "Zauberzeit", "", "", "", "", "", "시전 시간"]
+	cooldownTime		:= ["Cooldown Time", "Abklingzeit", "", "", "", "", "쿨다운 시간"]
+	damageEffectiveness	:= ["Damage Effectiveness", "Effektivität zusätzlichen Schadens", "", "", "", "", "", "Damage Effectiveness"]
+	manaReserved		:= ["Mana Reserved", "Mana reserviert", "", "", "", "", "", "점유 마나"]
+	manaMultiplier		:= ["Mana Multiplier", "Manamultiplikator", "", "", "", "", "", "마나 배율"]
+	evasionRating		:= ["Evasion Rating", "Ausweichwert", "", "", "", "", "", "회피"]
+	limitedTo			:= ["Limited to", "Begrenzt auf", "", "", "", "", "", "Limited to"]
+	radius			:= ["Radius", "Radius", "", "", "", "", "", "반경"]
 	
 	regex 			:= {}
-	regex.superior		:= ["^Superior(.*)", "(.*)\(hochwertig\)$", "(.*)de qualité$", "(.*)Superior$", "(.*)качества$", "^Superior(.*)", "(.*)Superior$"]
-	regex.map			:= ["(.*)Map", "Karte.*'(.*)'", "Carte:(.*)","Mapa:(.*)", "Карта(.*)", "(.*)Map", "Mapa de(.*)"]
+	regex.superior		:= ["^Superior(.*)", "(.*)\(hochwertig\)$", "(.*)de qualité$", "(.*)Superior$", "(.*)качества$", "^Superior(.*)", "(.*)Superior$", "(.*)상급$"]
+	regex.map			:= ["(.*)Map", "Karte.*'(.*)'", "Carte:(.*)","Mapa:(.*)", "Карта(.*)", "(.*)Map", "Mapa de(.*)", "(.*)지도"]
 	
 	regex.magicItem	:= {}
 	regex.magicItem.en	:= "im).*?([^ ]+\s+[^ ]+)(?:\sof.*)|([^ ]+\s+[^ ]+)$"
@@ -42,6 +42,10 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 	regex.magicItem.ru	:= "(.*)"
 	regex.magicItem.th	:= "im).*?([^ ]+\s+[^ ]+)(?:\sof.*)|([^ ]+\s+[^ ]+)$"
 	regex.magicItem.es	:= "im)(?:de la|del)\s[\w]+(.*)|([\w]+\sde\s[\w]+.*)|(.*)(?:de la|del)"
+	
+	If (locale == "ko") {
+		regex.magicItem.ko	:= "(.*)"
+	}
 	
 	lang := new TranslationHelpers(langData, regex)
 	
@@ -210,7 +214,7 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 
 	}
 
-	debugprintarray(sectionsT)
+	; debugprintarray(sectionsT)
 	retObj := sectionsT
 	
 	data := ""
@@ -221,8 +225,15 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 				data .= lineT "`n"
 			}
 		}
-		If (not k = sectionsT.MaxIndex()) {
-			data .= spacer "`n"
+		
+		If (locale == "ko") {
+			If (not key = sectionsT.MaxIndex()) {
+				data .= spacer "`n"
+			}
+		} Else {
+			If (not k = sectionsT.MaxIndex()) {
+				data .= spacer "`n"
+			}
 		}
 	}
 	
@@ -268,6 +279,12 @@ class TranslationHelpers {
 
 					search_stat := RegExReplace(search_stat, "(X|Y)(\%)?", "[0-9.]+$2")
 
+					If (true) {
+						search_stat := RegExReplace(search_stat, "총 \+", "+")
+						search_stat := RegExReplace(search_stat, "\+", "\+")
+						search_stat := RegExReplace(search_stat, "#", "\d*")
+					}
+
 					If (RegExMatch(affixLine, "i)" search_stat "", match)) {
 						_m.local_match := match
 						_m.local_text  := stat.text
@@ -302,7 +319,12 @@ class TranslationHelpers {
 		}
 		
 		values_local := this.GetAllMatches(_m.local_line, "((?:\+|-)?[0-9.]+\%?)")
-		_m.default_line := this.ReplaceAllMatches(_m.default_text, values_local, "(?:(?:\+|-)?[0-9.XY]+\%?)")
+		
+		If (true) {
+			_m.default_line := this.ReplaceAllMatches(_m.default_text, values_local, "(?:(?:\+|-)?#+\%?)")
+		} Else {
+			_m.default_line := this.ReplaceAllMatches(_m.default_text, values_local, "(?:(?:\+|-)?[0-9.XY]+\%?)")
+		}
 		_m.default_line := RegExReplace(_m.default_line, "(\s\(Local|Map|Staves|Shields\))")
 		
 		;DebugPrintArray(_m)	

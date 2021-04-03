@@ -4478,9 +4478,9 @@ TradeFunc_ShowPredictedPricingFeedbackUI(data) {
 	_groupBoxHeight := _contributionOffset + 83
 	
 	Gui, PredictedPricing:Add, GroupBox, w400 h%_groupBoxHeight% y+10 x10, Results
-	Gui, PredictedPricing:Font, norm s10 c000000, Consolas
+	Gui, PredictedPricing:Font, norm s12 c000000, Consolas
 	Gui, PredictedPricing:Add, Text, yp+25 x20 w380 BackgroundTrans, % _headLine
-	Gui, PredictedPricing:Font, norm bold c000000, Consolas
+	Gui, PredictedPricing:Font, norm bold s10 c000000, Consolas
 	Gui, PredictedPricing:Add, Text, x20 w90 y+10 BackgroundTrans, % "Price range: "
 	Gui, PredictedPricing:Font, norm c000000, Consolas
 	Gui, PredictedPricing:Add, Text, x+5 yp+0 BackgroundTrans, % Round(Trim(data.min), 2) " ~ " Round(Trim(data.max), 2) " " Trim(data.currency)
