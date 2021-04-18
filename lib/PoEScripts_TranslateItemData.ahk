@@ -76,6 +76,19 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 		sections.push(sectionLines)
 	}
 
+	If (locale == "ko") {
+		/*
+			2021-04-18
+			[결전 리그] '아이템 종류' 상단 위치에 신규 추가로, 파싱 오류
+			추가된 아이템 종류를 상단이 아닌 맨 끝으로 이동
+		*/
+		rarity := sections[1][2]
+		itemName :=  sections[1][3]
+		sections[1][3] := sections[1][1]
+		sections[1][1] := rarity
+		sections[1][2] := itemName
+	}
+
 	_specialTypes := ["Currency", "Divination Card"]
 	_ItemBaseType := ""
 	_item := {}
