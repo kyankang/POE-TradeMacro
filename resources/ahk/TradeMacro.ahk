@@ -4475,7 +4475,7 @@ TradeFunc_ShowPredictedPricingFeedbackUI(data) {
 	
 	_details := TradeFunc_PreparePredictedPricingContributionDetails(data.pred_explanation, 40)
 	_contributionOffset := _details.Length() * 24
-	_groupBoxHeight := _contributionOffset + 83
+	_groupBoxHeight := _contributionOffset + 90
 	
 	Gui, PredictedPricing:Add, GroupBox, w400 h%_groupBoxHeight% y+10 x10, Results
 	Gui, PredictedPricing:Font, norm s12 c000000, Consolas

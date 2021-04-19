@@ -84,9 +84,11 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 		*/
 		rarity := sections[1][2]
 		itemName :=  sections[1][3]
-		sections[1][3] := sections[1][1]
+		itemType :=  sections[1][4]
+		sections[1][4] := sections[1][1]
 		sections[1][1] := rarity
 		sections[1][2] := itemName
+		sections[1][3] := itemType
 	}
 
 	_specialTypes := ["Currency", "Divination Card"]
