@@ -76,21 +76,13 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 		sections.push(sectionLines)
 	}
 
-	If (locale == "ko") {
-		/*
-			2021-04-18
-			[결전 리그] '아이템 종류' 상단 위치에 신규 추가로, 파싱 오류
-			추가된 아이템 종류를 상단이 아닌 맨 끝으로 이동
-		*/
-		rarity := sections[1][2]
-		itemName :=  sections[1][3]
-		itemType :=  sections[1][4]
-		sections[1][4] := sections[1][1]
-		sections[1][1] := rarity
-		sections[1][2] := itemName
-		sections[1][3] := itemType
-	}
-
+	; 2021-04-20
+	; [결전 리그] '아이템 종류' 상단 위치에 신규 추가로, 파싱 오류
+	; - 번역할때는 '아이템 종류' 삭제
+	; - 번역이 완료되고, '아이템 종류' 재추가
+	itemClass :=  sections[1][1]
+	sections[1].RemoveAt(1)
+	
 	_specialTypes := ["Currency", "Divination Card"]
 	_ItemBaseType := ""
 	_item := {}
@@ -150,7 +142,11 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 			For k, line in section {
 				RegExMatch(line, "i)(.*?)(:):?(.*)|(.*)", part)
 				part1 := StrLen(part4) ? part4 : part1
-				_p1 := lang.GetBasicInfo(Trim(part1))
+
+				If "무기 범위" = part1
+					_p1 := "Weapon Range"
+				Else
+					_p1 := lang.GetBasicInfo(Trim(part1))
 				
 				If (not _p1) {
 					; TODO: find alternative to this hardcoded shit
@@ -194,7 +190,8 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 					}
 				}
 				
-				sectionsT[key][k] := _p1 . part2 . part3
+				If (_p1 != "")
+					sectionsT[key][k] := _p1 . part2 . part3
 			}
 		}
 		
@@ -228,6 +225,8 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 		}
 
 	}
+
+	sectionsT[1].InsertAt(1, itemClass)
 
 	; debugprintarray(sectionsT)
 	retObj := sectionsT

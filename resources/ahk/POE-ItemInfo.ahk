@@ -916,6 +916,12 @@ GetClipboardContents(DropNewlines=False)
 {
 	Result =
 	Note =
+
+	If (currentLocale == "ko") {
+		;Item Data Translation, won't be used for now.
+		Clipboard := PoEScripts_TranslateItemData(Clipboard, translationData, currentLocale, retObj, retCode)
+	}
+
 	If Not DropNewlines
 	{
 		Loop, Parse, Clipboard, `n, `r
@@ -6954,6 +6960,7 @@ IsNum(Var){
 PreProcessContents(CBContents)
 {
 ; --- Place fixes for data inconsistencies here ---
+	CBContents:= SubStr(CBContents, InStr(CBContents,"`n") + 1)    ;      <-- new fix
 	
 ; Remove the line that indicates an item cannot be used due to missing character stats	
 	; Matches "Rarity: ..." + anything until "--------"\r\n
@@ -6968,12 +6975,7 @@ PreProcessContents(CBContents)
 	
      Needle := "--------`r`n--------`r`n"
 	StringReplace, CBContents, CBContents, %Needle%, --------`r`n, All
-
-	If (currentLocale == "ko") {
-		;Item Data Translation, won't be used for now.
-		CBContents := PoEScripts_TranslateItemData(CBContents, translationData, currentLocale, retObj, retCode)
-	}
-
+	
 	return CBContents
 }
 
@@ -7978,11 +7980,7 @@ ParseItemData(ItemDataText, ByRef RarityLevel="")
 	; replace the split string (\r\n--------\r\n) with AHK's escape char (`)
 	; then do the actual string splitting...
 
-	If (currentLocale == "ko") {
-		StringReplace, TempResult, ItemDataText, `n--------`n, ``, All
-	} Else {
-		StringReplace, TempResult, ItemDataText, `r`n--------`r`n, ``, All
-	}
+	StringReplace, TempResult, ItemDataText, `r`n--------`r`n, ``, All
 	StringSplit, ItemDataParts, TempResult, ``,
 	
 	ItemData.NamePlate	:= ItemDataParts1
