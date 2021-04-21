@@ -18,6 +18,13 @@ SetWorkingDir, %A_ScriptDir%
 #Include, %A_ScriptDir%\lib\ConvertKeyToKeyCode.ahk
 #Include, %A_ScriptDir%\resources\VersionTrade.txt
 
+If FileExist(A_ScriptDir "\DebugItem.ahk") {
+	global DebugModeEnable = (!StrLen(argumentProjectName) > 0)
+	If (DebugModeEnable) {
+		#Include, %A_ScriptDir%\DebugItem.ahk
+	}
+}
+
 TradeMsgWrongAHKVersion := "AutoHotkey v" . TradeAHKVersionRequired . " or later is needed to run this script. `n`nYou are using AutoHotkey v" . A_AhkVersion . " (installed at: " . A_AhkPath . ")`n`nPlease go to http://ahkscript.org to download the most recent version."
 If (A_AhkVersion < TradeAHKVersionRequired)
 {
@@ -101,7 +108,7 @@ argumentOverwrittenFiles = %4%
 argumentMergeScriptPath  = %7%
 
 ; when using the fallback exe we're missing the parameters passed by the merge script
-If (!StrLen(argumentProjectName) > 0) {
+If (!StrLen(argumentProjectName) > 0 and not DebugModeEnable) {
 	fallbackExeMsg := "You're using a compiled version (.exe) of the script which is only intended to be used if the normal version (.ahk script) doesn't work for you."
 	fallbackExeMsg .= "`n`nThis version can possibly cause issues that you wouldn't have with the normal script though."
 	fallbackExeMsg .= "`n`nUse ""Run_TradeMacro.ahk"" if possible and try it before reporting any issues!"
@@ -185,7 +192,8 @@ OnMessage( 0x111, "HandleGuiControlSetFocus" )
 
 global ItsApriFoolsTime := TradeFunc_CheckAprilFools()
 
-TradeFunc_FinishTMInit(argumentMergeScriptPath)
+If (not DebugModeEnable)
+	TradeFunc_FinishTMInit(argumentMergeScriptPath)
 
 ; ----------------------------------------------------------- Functions ----------------------------------------------------------------
 
@@ -543,6 +551,10 @@ TradeFunc_ScriptUpdate() {
 	} Else {
 		ShowUpdateNotification := 1
 	}
+
+	If (DebugModeEnable)
+		Return
+
 	SplashScreenTitle := "PoE-TradeMacro"
 	PoEScripts_Update(globalUpdateInfo.user, globalUpdateInfo.repo, globalUpdateInfo.releaseVersion, ShowUpdateNotification, userDirectory, isDevVersion, globalUpdateInfo.skipSelection, globalUpdateInfo.skipBackup, SplashScreenTitle, TradeOpts.Debug)
 }
@@ -1090,6 +1102,9 @@ TradeFunc_ParseSearchFormOptions() {
 TradeFunc_DownloadDataFiles() {	
 	SplashUI.SetSubMessage("Downloading latest data files from github...")
 	
+	If (DebugModeEnable)
+		Return
+
 	; disabled while using debug mode
 	owner	:= TradeGlobals.Get("GithubUser", "POE-TradeMacro")
 	repo 	:= TradeGlobals.Get("GithubRepo", "POE-TradeMacro")
@@ -1128,6 +1143,10 @@ TradeFunc_DownloadDataFiles() {
 
 TradeFunc_CheckIfCloudFlareBypassNeeded() {
 	SplashUI.SetSubMessage("Testing connection to poe.trade...")
+
+	If (DebugModeEnable)
+		Return
+
 	; call this function without parameters to access poe.trade without cookies
 	; if it succeeds we don't need any cookies
 	If (!TradeFunc_TestCloudflareBypass("https://poe.trade", "", "", "", false, "PreventErrorMsg")) {

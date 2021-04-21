@@ -5,7 +5,7 @@
 
 ; when using the fallback exe we're missing the parameters passed by the merge script and missed clearing the temp folder
 argumentIsMergedScript = %5%
-If (argumentIsMergedScript != "isMergedScript") {
+If (argumentIsMergedScript != "isMergedScript" and not DebugModeEnable) {
 	FileRemoveDir, %A_ScriptDir%\temp, 1
 	FileCreateDir, %A_ScriptDir%\temp
 }
@@ -35,22 +35,28 @@ global TradeItemBasesWeapons := ReadJSONDataFromFile(A_ScriptDir "\data_trade\it
 global TradeItemBasesArmours := ReadJSONDataFromFile(A_ScriptDir "\data_trade\item_bases_armour.json", "item_bases_armour")
 
 SplashUI.SetSubMessage("Parsing leagues from GGGs API...")
-; Download and parse the current leagues
-postData		:= ""
-reqHeaders	:= []
-;options		:= "ReturnHeaders: Skip"
-options		:= "`n" "RequestType: GET"
-reqHeaders.push("Host: api.pathofexile.com")
-reqHeaders.push("Connection: keep-alive")
-reqHeaders.push("Cache-Control: max-age=0")
-reqHeaders.push("Content-type: application/x-www-form-urlencoded; charset=UTF-8")
-reqHeaders.push("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8")
-reqHeaders.push("User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36")
-parsedLeagueJSON := PoEScripts_Download("http://api.pathofexile.com/leagues?type=main", postData, reqHeaders, options, true, true, false, "", reqHeadersCurl)
-WriteToLogFile("Requesting leagues from api.pathofexile.com...`n`n" "cURL command:`n" reqHeadersCurl "`n`nAnswer: " reqHeaders, "StartupLog.txt", "PoE-TradeMacro")
 
-If (PoEScripts_SaveWriteTextFile(A_ScriptDir "\temp\currentLeagues.json", parsedLeagueJSON, "utf-8", true, true)) {
-	WriteToLogFile("Failed to delete " A_ScriptDir "\temp\currentLeagues.json before writing JSON data. `n", "StartupLog.txt", "PoE-TradeMacro")	
+currentLeaguesJsonPath := A_ScriptDir "\temp\currentLeagues.json"
+If (DebugModeEnable and FileExist(currentLeaguesJsonPath)) {
+	;
+} Else {
+	; Download and parse the current leagues
+	postData		:= ""
+	reqHeaders	:= []
+	;options		:= "ReturnHeaders: Skip"
+	options		:= "`n" "RequestType: GET"
+	reqHeaders.push("Host: api.pathofexile.com")
+	reqHeaders.push("Connection: keep-alive")
+	reqHeaders.push("Cache-Control: max-age=0")
+	reqHeaders.push("Content-type: application/x-www-form-urlencoded; charset=UTF-8")
+	reqHeaders.push("Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8")
+	reqHeaders.push("User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36")
+	parsedLeagueJSON := PoEScripts_Download("http://api.pathofexile.com/leagues?type=main", postData, reqHeaders, options, true, true, false, "", reqHeadersCurl)
+	WriteToLogFile("Requesting leagues from api.pathofexile.com...`n`n" "cURL command:`n" reqHeadersCurl "`n`nAnswer: " reqHeaders, "StartupLog.txt", "PoE-TradeMacro")
+
+	If (PoEScripts_SaveWriteTextFile(currentLeaguesJsonPath, parsedLeagueJSON, "utf-8", true, true)) {
+		WriteToLogFile("Failed to delete " A_ScriptDir "\temp\currentLeagues.json before writing JSON data. `n", "StartupLog.txt", "PoE-TradeMacro")	
+	}
 }
 
 errorMsg := "Parsing the league data (json) from the Path of Exile API failed."
@@ -61,7 +67,7 @@ errorMsg .= "`n`nPlease do not report this issue if the pathofexile.com servers 
 errorMsg .= "`nNobody can help you in that case, you'll have to wait until they are up again."
 
 Try {	
-	test := FileExist(A_ScriptDir "\temp\currentLeagues.json")
+	test := FileExist(currentLeaguesJsonPath)
 	If (test) {
 		FileRead, JSONFile, %A_ScriptDir%\temp\currentLeagues.json
 		parsedJSON := JSON.Load(JSONFile)

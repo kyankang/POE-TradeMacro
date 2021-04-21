@@ -18,6 +18,10 @@ GroupAdd, PoEWindowGrp, Path of Exile ahk_class POEWindowClass ahk_exe PathOfExi
 GroupAdd, PoEWindowGrp, Path of Exile ahk_class POEWindowClass ahk_exe PathOfExile_KG.exe
 GroupAdd, PoEWindowGrp, Path of Exile ahk_class POEWindowClass ahk_exe PathOfExile_x64_KG.exe
 
+If (DebugModeEnable) {
+	GroupAdd, PoEWindowGrp, ahk_exe SearchApp.exe
+}
+
 #Include, %A_ScriptDir%\resources\Version.txt
 #Include, %A_ScriptDir%\lib\JSON.ahk
 #Include, %A_ScriptDir%\lib\EasyIni.ahk
@@ -916,15 +920,22 @@ GetClipboardContents(DropNewlines=False)
 {
 	Result =
 	Note =
+	
+	global DebugClipboardText
+	If (Clipboard and DebugModeEnable and DebugClipboardText) {
+		ClipboardText := DebugClipboardText 
+	} Else {
+		ClipboardText := Clipboard
+	}
 
 	If (currentLocale == "ko") {
 		;Item Data Translation, won't be used for now.
-		Clipboard := PoEScripts_TranslateItemData(Clipboard, translationData, currentLocale, retObj, retCode)
+		ClipboardText := PoEScripts_TranslateItemData(ClipboardText, translationData, currentLocale, retObj, retCode)
 	}
 
 	If Not DropNewlines
 	{
-		Loop, Parse, Clipboard, `n, `r
+		Loop, Parse, ClipboardText, `n, `r
 		{
 			IfInString, A_LoopField, note:
 			
@@ -957,7 +968,7 @@ GetClipboardContents(DropNewlines=False)
 	}
 	Else
 	{
-		Loop, Parse, Clipboard, `n, `r
+		Loop, Parse, ClipboardText, `n, `r
 		{
 			IfInString, A_LoopField, note:
 			{

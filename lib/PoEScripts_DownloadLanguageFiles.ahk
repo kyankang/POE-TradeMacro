@@ -20,11 +20,14 @@
 		translationData.default	 	:= PoEScripts_DownloadFileSet("en", lang["en"], onlyParseFiles)
 	}
 	
+	; kyan
+	/*
 	If (onlyParseFiles) {
 		dumpObj := JSON.Dump(translationData)
 		FileDelete, %A_ScriptDir%\data\lang\lang.json
 		FileAppend, %dumpObj%, %A_ScriptDir%\data\lang\lang.json
 	}
+	*/
 	
 	SplashTextOff
 	Return translationData
@@ -55,6 +58,8 @@ PoEScripts_GetClientLanguage() {
 			Return language
 		}
 	}
+	If (DebugModeEnable)
+		Return "ko"
 	Return false
 }
 

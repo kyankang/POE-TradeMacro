@@ -1,0 +1,5 @@
+﻿#SingleInstance, force
+
+DebugClipboardText =
+(
+)
