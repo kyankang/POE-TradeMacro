@@ -240,8 +240,14 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 			}
 		}
 		
-		If (not k = sectionsT.MaxIndex()) {
-			data .= spacer "`n"
+		If (locale == "ko") {
+			If (not key = sectionsT.MaxIndex()) {
+				data .= spacer "`n"
+			}
+		} Else {
+			If (not k = sectionsT.MaxIndex()) {
+				data .= spacer "`n"
+			}
 		}
 	}
 	
