@@ -921,10 +921,12 @@ GetClipboardContents(DropNewlines=False)
 	Result =
 	Note =
 	
-	global DebugClipboardText
-	If (Clipboard and DebugModeEnable and DebugClipboardText) {
-		ClipboardText := DebugClipboardText 
-	} Else {
+	ClipboardText =
+	If (Clipboard and DebugModeEnable and FileExist(A_ScriptDir "\DebugItem.txt")) {
+		FileRead, ClipboardText, %A_ScriptDir%\DebugItem.txt
+	}
+	
+	If (StrLen(Trim(ClipboardText)) == 0) {
 		ClipboardText := Clipboard
 	}
 
@@ -7024,6 +7026,8 @@ ParseClipBoardChanges(debug = false)
 {
 	Global Opts, Globals, Item
 	
+	ShowToolTip("Please wait... ")
+	
 	CBContents := GetClipboardContents()
 	CBContents := PreProcessContents(CBContents)
 	Globals.Set("ItemText", CBContents)
@@ -8281,11 +8285,11 @@ ParseItemData(ItemDataText, ByRef RarityLevel="")
 				Loop, Parse, imp, `n, `r
 				{
 					If (RegExMatch(A_LoopField, "i)(.*)\(Enchant\)")) {
-						Item.Enchantment.push(RegExReplace(A_LoopField, "i)(.*)\(Enchant\)", "$1"))
+						Item.Enchantment.push(Trim(RegExReplace(A_LoopField, "i)(.*)\(Enchant\)", "$1")))
 						Item.hasEnchantment := True
 					}
 					Else {
-						Item.Implicit.push(RegExReplace(A_LoopField, "i)(.*)\(Implicit\)", "$1"))
+						Item.Implicit.push(Trim(RegExReplace(A_LoopField, "i)(.*)\(Implicit\)", "$1")))
 						Item.hasImplicit := True
 					}
 				}

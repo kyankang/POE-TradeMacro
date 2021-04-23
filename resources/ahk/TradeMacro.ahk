@@ -4700,6 +4700,12 @@ TradeFunc_AdvancedPriceCheckGui(advItem, Stats, Sockets, Links, UniqueStats = ""
 	boxRows := modCount * 3 + statCount * 3
 
 	modGroupYPos := 4
+
+	; kyan
+	If (modGroupBox < 300) {
+		modGroupBox = 300
+	}
+
 	Gui, SelectModsGui:Add, Text, x14 y+%modGroupYPos% w%modGroupBox%, Mods
 	Gui, SelectModsGui:Add, Text, x+10 yp+0 w90, min
 	Gui, SelectModsGui:Add, Text, x+10 yp+0 w45, current
@@ -6188,7 +6194,9 @@ TradeFunc_ChangeLeague() {
 
 TradeFunc_PreventClipboardGarbageAfterInit() {
 	Global
-	
+
+	ShowToolTip("Please wait... ")
+
 	If (not TradeGlobals.Get("FirstSearchTriggered")) {
 		Clipboard := ""
 	}

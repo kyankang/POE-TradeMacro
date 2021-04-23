@@ -289,10 +289,14 @@ class TranslationHelpers {
 			If (not typeLocal = "pseudo") {
 				For i, stat in types.entries {
 					;replace strings in parentheses with regex, can be optional like (local) and hidden on the item or an actual mod having parentheses
-					search_stat := RegExReplace(stat.text, "(?:\s)?\((.*)\)", "(\s?\($1\))?")
+					;search_stat := RegExReplace(stat.text, "(?:\s)?\((.*)\)", "(\s?\($1\))?")
+
+					; kyan (...) 괄호도 체크하도록 수정
+					search_stat := RegExReplace(stat.text, "(?:\s)?\((.*)\)", "(\s?\($1\))")
 
 					search_stat := RegExReplace(search_stat, "(X|Y)(\%)?", "[0-9.]+$2")
 
+					; kyan
 					If (true) {
 						search_stat := RegExReplace(search_stat, "총 \+", "+")
 						search_stat := RegExReplace(search_stat, "\+", "\+")

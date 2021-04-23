@@ -18,11 +18,8 @@ SetWorkingDir, %A_ScriptDir%
 #Include, %A_ScriptDir%\lib\ConvertKeyToKeyCode.ahk
 #Include, %A_ScriptDir%\resources\VersionTrade.txt
 
-If FileExist(A_ScriptDir "\DebugItem.ahk") {
+If FileExist(A_ScriptDir "\DebugItem.txt") {
 	global DebugModeEnable = (!StrLen(argumentProjectName) > 0)
-	If (DebugModeEnable) {
-		#Include, %A_ScriptDir%\DebugItem.ahk
-	}
 }
 
 TradeMsgWrongAHKVersion := "AutoHotkey v" . TradeAHKVersionRequired . " or later is needed to run this script. `n`nYou are using AutoHotkey v" . A_AhkVersion . " (installed at: " . A_AhkPath . ")`n`nPlease go to http://ahkscript.org to download the most recent version."

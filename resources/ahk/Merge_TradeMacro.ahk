@@ -142,6 +142,10 @@ If (not onlyMergeFiles) {
 	WinGetText, errorWindowText, % "_TradeMacroMain.ahk"
 
 	Menu, Tray, Icon, %scriptDir%\resources\images\poe-trade-bl.ico
+	
+	; kyan
+	ExitApp
+
 	GoSub, ShowErrorUI
 } Else {
 	ExitApp	

@@ -1,0 +1,5136 @@
+﻿{
+	"result": [
+		{
+			"default": "Ladder",
+			"localized": "래더"
+		},
+		{
+			"default": "Rank",
+			"localized": "순위"
+		},
+		{
+			"default": "Account",
+			"localized": "계정"
+		},
+		{
+			"default": "Points",
+			"localized": "포인트"
+		},
+		{
+			"default": "Character",
+			"localized": "캐릭터"
+		},
+		{
+			"default": "Class",
+			"localized": "직업"
+		},
+		{
+			"default": "Level",
+			"localized": "레벨"
+		},
+		{
+			"default": "Experience",
+			"localized": "경험치"
+		},
+		{
+			"default": "Next",
+			"localized": "다음"
+		},
+		{
+			"default": "Prev",
+			"localized": "이전"
+		},
+		{
+			"default": "per page",
+			"localized": "페이지 당"
+		},
+		{
+			"default": "Post Reply",
+			"localized": "댓글"
+		},
+		{
+			"default": "Race Season One",
+			"localized": "경주 시즌 1"
+		},
+		{
+			"default": "Race Season Two",
+			"localized": "경주 시즌 2"
+		},
+		{
+			"default": "Race Season Three",
+			"localized": "경주 시즌 3"
+		},
+		{
+			"default": "Race Season Four",
+			"localized": "경주 시즌 4"
+		},
+		{
+			"default": "Race Season Five",
+			"localized": "경주 시즌 5"
+		},
+		{
+			"default": "Race Season Six",
+			"localized": "경주 시즌 6"
+		},
+		{
+			"default": "Race Season Seven",
+			"localized": "경주 시즌 7"
+		},
+		{
+			"default": "Race Season Eight",
+			"localized": "경주 시즌 8"
+		},
+		{
+			"default": "Race Season Nine",
+			"localized": "경주 시즌 9"
+		},
+		{
+			"default": "Race Season Ten",
+			"localized": "경주 시즌 10"
+		},
+		{
+			"default": "Race Season Eleven",
+			"localized": "경주 시즌 11"
+		},
+		{
+			"default": "PVP Season One",
+			"localized": "PvP 시즌 1"
+		},
+		{
+			"default": "PVP Season Two",
+			"localized": "PvP 시즌 2"
+		},
+		{
+			"default": "US PVP Season One",
+			"localized": "미국 PvP 시즌 1"
+		},
+		{
+			"default": "US PVP Season Two",
+			"localized": "미국 PvP 시즌 2"
+		},
+		{
+			"default": "EU PVP Season One",
+			"localized": "유럽 PvP 시즌 1"
+		},
+		{
+			"default": "EU PVP Season Two",
+			"localized": "유럽 PvP 시즌 2"
+		},
+		{
+			"default": "Auto refresh",
+			"localized": "자동 새로 고침"
+		},
+		{
+			"default": "Refresh",
+			"localized": "새로 고침"
+		},
+		{
+			"default": "Export CSV",
+			"localized": "CSV로 내보내기"
+		},
+		{
+			"default": "Witch",
+			"localized": "위치"
+		},
+		{
+			"default": "Templar",
+			"localized": "템플러"
+		},
+		{
+			"default": "Scion",
+			"localized": "사이온"
+		},
+		{
+			"default": "Shadow",
+			"localized": "쉐도우"
+		},
+		{
+			"default": "Marauder",
+			"localized": "머라우더"
+		},
+		{
+			"default": "Ranger",
+			"localized": "레인저"
+		},
+		{
+			"default": "Duelist",
+			"localized": "듀얼리스트"
+		},
+		{
+			"default": "Starts",
+			"localized": "시작"
+		},
+		{
+			"default": "Started",
+			"localized": "시작됨"
+		},
+		{
+			"default": "Finishes",
+			"localized": "종료"
+		},
+		{
+			"default": "Finished",
+			"localized": "종료됨"
+		},
+		{
+			"default": "at",
+			"localized": ":"
+		},
+		{
+			"default": "Registration open",
+			"localized": "참가 가능"
+		},
+		{
+			"default": "Rules",
+			"localized": "규칙"
+		},
+		{
+			"default": "Hardcore",
+			"localized": "하드코어"
+		},
+		{
+			"default": "A character killed in Hardcore is moved to its parent league.",
+			"localized": "하드코어에서 사망한 캐릭터는 상위 리그로 이동합니다."
+		},
+		{
+			"default": "Starts in",
+			"localized": "시작까지 남은 시간:"
+		},
+		{
+			"default": "Ends in",
+			"localized": "종료까지 남은 시간:"
+		},
+		{
+			"default": "Dead",
+			"localized": "사망"
+		},
+		{
+			"default": "Retired",
+			"localized": "은퇴"
+		},
+		{
+			"default": "Online",
+			"localized": "온라인"
+		},
+		{
+			"default": "Offline",
+			"localized": "오프라인"
+		},
+		{
+			"default": "Loading",
+			"localized": "불러오는 중"
+		},
+		{
+			"default": "League",
+			"localized": "리그 및 랭킹"
+		},
+		{
+			"default": "Points Left",
+			"localized": "포인트 남음"
+		},
+		{
+			"default": "Point Left",
+			"localized": "포인트 남음"
+		},
+		{
+			"default": "SWITCH CHARACTER",
+			"localized": "캐릭터 교체"
+		},
+		{
+			"default": "Guild Balance",
+			"localized": "길드 잔액"
+		},
+		{
+			"default": "Give Microtransaction Points to Guild",
+			"localized": "길드에 포인트 선물하기"
+		},
+		{
+			"default": "Use this form to send points to your Guild to allow your Guild Leader to purchase Microtransactions. If the Guild Leader accepts your points you can not be kicked out for three months.",
+			"localized": "이 양식을 사용하면 내 길드에 포인트를 보낼 수 있으며 길드 대표가 그 포인트로 포인트 아이템을 구매할 수 있습니다. 길드 대표가 포인트를 받으면 해당 플레이어를 3개월 동안 길드에서 추방할 수 없습니다."
+		},
+		{
+			"default": "Points Amount",
+			"localized": "기부 포인트"
+		},
+		{
+			"default": "Give Points",
+			"localized": "포인트 주기"
+		},
+		{
+			"default": "Transaction History",
+			"localized": "거래 내역"
+		},
+		{
+			"default": "Guild Transactions",
+			"localized": "길드 결제"
+		},
+		{
+			"default": "This is a list of points transfers from members of your Guild. Accept transactions to credit the points to your Guild. You will not be able to kick a player for three months if you accept their points.",
+			"localized": "내 길드원에게 받은 포인트 목록입니다. 거래를 승인하면 길드에 포인트가 추가됩니다. 길드원이 보낸 포인트를 받으면 해당 길드원을 3개월 동안 길드에서 추방할 수 없습니다."
+		},
+		{
+			"default": "Accept",
+			"localized": "수락"
+		},
+		{
+			"default": "Reject",
+			"localized": "거부"
+		},
+		{
+			"default": "Cancelled",
+			"localized": "취소 완료"
+		},
+		{
+			"default": "Rejected",
+			"localized": "거부 완료"
+		},
+		{
+			"default": "Complete",
+			"localized": "완료"
+		},
+		{
+			"default": "Manual transfer",
+			"localized": "수동 거래"
+		},
+		{
+			"default": "from",
+			"localized": "보낸이"
+		},
+		{
+			"default": "Transaction created",
+			"localized": "거래 생성 완료"
+		},
+		{
+			"default": "Amount is not a number",
+			"localized": "거래량이 숫자가 아님"
+		},
+		{
+			"default": "Amount must be greater than 0",
+			"localized": "거래량은 0보다 커야 함"
+		},
+		{
+			"default": "Accept transaction",
+			"localized": "거래 수락"
+		},
+		{
+			"default": "Reject transaction",
+			"localized": "거래 거부"
+		},
+		{
+			"default": "Cancel transaction",
+			"localized": "거래 취소"
+		},
+		{
+			"default": "points transferred to",
+			"localized": "포인트가 다음에게 보내짐:"
+		},
+		{
+			"default": "Failed to load history",
+			"localized": "내역 불러오기 실패"
+		},
+		{
+			"default": "Added pin",
+			"localized": "핀 추가 완료"
+		},
+		{
+			"default": "Deleted pin",
+			"localized": "핀 삭제 완료"
+		},
+		{
+			"default": "Moved pin",
+			"localized": "핀 이동 완료"
+		},
+		{
+			"default": "There was an error adding this pin",
+			"localized": "이 핀을 추가하는 동안 오류 발생"
+		},
+		{
+			"default": "There was an error deleting this pin",
+			"localized": "이 핀을 삭제하는 동안 오류 발생"
+		},
+		{
+			"default": "There was an error moving this pin",
+			"localized": "이 핀을 이동하는 동안 오류 발생"
+		},
+		{
+			"default": "Private",
+			"localized": "비공개"
+		},
+		{
+			"default": "League requires a password to join.",
+			"localized": "이 리그에 참가하려면 비밀번호를 입력해야 합니다."
+		},
+		{
+			"default": "A character killed in Hardcore is moved to its parent league.",
+			"localized": "하드코어에서 사망한 캐릭터는 상위 리그로 이동합니다."
+		},
+		{
+			"default": "Drop equipped items on death.",
+			"localized": "죽을 경우 갖고 있는 아이템을 떨어뜨립니다."
+		},
+		{
+			"default": "Instance invasion",
+			"localized": "인스턴스 침략"
+		},
+		{
+			"default": "Allows you to select other people\\'s instances in the instance manager.",
+			"localized": "인스턴스 관리자에서 다른 플레이어가 만든 인스턴스를 선택할 수 있습니다."
+		},
+		{
+			"default": "Harsh death experience penalty",
+			"localized": "사망 경험치 페널티 증가"
+		},
+		{
+			"default": "Increases the death experience penalty by 30% on all difficulty levels.",
+			"localized": "모든 난이도에서 사망 경험치 페널티가 30% 증가합니다."
+		},
+		{
+			"default": "Hostile by default",
+			"localized": "기본 적대"
+		},
+		{
+			"default": "Non-partymembers are hostile by default when you are not partied.",
+			"localized": "파티원이 아닌 플레이어는 기본적이로 적대적입니다."
+		},
+		{
+			"default": "Death penalty awarded to slayer",
+			"localized": "플레이어 처치 시 사망 페널티 보상"
+		},
+		{
+			"default": "When killing a player, their death penalty is awarded to the player doing the killing.",
+			"localized": "다른 플레이어를 처치하면 죽은 플레이어의 사망 페널티가 그 플레이어를 처치한 플레이어에게 보상으로 제공됩니다."
+		},
+		{
+			"default": "Increased player caps",
+			"localized": "플레이어 수 증가"
+		},
+		{
+			"default": "Doubles player capacity in non-town instances. Does not increase the party size.",
+			"localized": "마을이 아닌 인스턴스에서 최대 플레이어 수가 증가합니다. 파티 크기가 증가하지는 않습니다."
+		},
+		{
+			"default": "Turbo",
+			"localized": "과속"
+		},
+		{
+			"default": "Monsters move, attack and cast 60% faster.",
+			"localized": "몬스터가 평소보다 60% 빨리 움직이고, 공격하고, 주문을 시전합니다."
+		},
+		{
+			"default": "Solo",
+			"localized": "솔로"
+		},
+		{
+			"default": "You may not party in this league.",
+			"localized": "이 리그에서는 파티에 참가할 수 없습니다."
+		},
+		{
+			"default": "Requires",
+			"localized": "요구 사항:"
+		},
+		{
+			"default": "No results found",
+			"localized": "결과 없음"
+		},
+		{
+			"default": "Time",
+			"localized": "시간"
+		},
+		{
+			"default": "hour",
+			"localized": "시간"
+		},
+		{
+			"default": "hours",
+			"localized": "시"
+		},
+		{
+			"default": "minute",
+			"localized": "분"
+		},
+		{
+			"default": "minutes",
+			"localized": "분"
+		},
+		{
+			"default": "second",
+			"localized": "초"
+		},
+		{
+			"default": "seconds",
+			"localized": "초"
+		},
+		{
+			"default": "League has finished",
+			"localized": "리그 종료"
+		},
+		{
+			"default": "Monday",
+			"localized": "월요일"
+		},
+		{
+			"default": "Tuesday",
+			"localized": "화요일"
+		},
+		{
+			"default": "Wednesday",
+			"localized": "수요일"
+		},
+		{
+			"default": "Thursday",
+			"localized": "목요일"
+		},
+		{
+			"default": "Friday",
+			"localized": "금요일"
+		},
+		{
+			"default": "Saturday",
+			"localized": "토요일"
+		},
+		{
+			"default": "Sunday",
+			"localized": "일요일"
+		},
+		{
+			"default": "Find an account by ID, name or email.",
+			"localized": "ID, Steam ID, 이름 또는 이메일 주소로 계정을 검색합니다."
+		},
+		{
+			"default": "Include related accounts",
+			"localized": "관련 계정 포함"
+		},
+		{
+			"default": "Connecting...",
+			"localized": "연결하는 중..."
+		},
+		{
+			"default": "Searching...",
+			"localized": "검색하는 중..."
+		},
+		{
+			"default": "Bulk Ban",
+			"localized": "대량 차단"
+		},
+		{
+			"default": "Put the account ids to ban in the textarea below (one line per account id)",
+			"localized": "아래 텍스트 영역에 입력한 계정 ID를 차단합니다(한 줄에 계정 ID 하나)."
+		},
+		{
+			"default": "Ban reason (Visible to Player)",
+			"localized": "차단 사유(플레이어에게 노출)"
+		},
+		{
+			"default": "Ban notes (Moderator Notes)",
+			"localized": "차단 노트(관리자 노트)"
+		},
+		{
+			"default": "Failed to ban",
+			"localized": "차단 실패"
+		},
+		{
+			"default": "Banned",
+			"localized": "계정 영구 정지"
+		},
+		{
+			"default": "Ban",
+			"localized": "차단"
+		},
+		{
+			"default": "Incoming",
+			"localized": "수신"
+		},
+		{
+			"default": "All Types",
+			"localized": "모든 유형"
+		},
+		{
+			"default": "Whisper",
+			"localized": "귓속말"
+		},
+		{
+			"default": "Party",
+			"localized": "파티"
+		},
+		{
+			"default": "Local",
+			"localized": "지역"
+		},
+		{
+			"default": "Global",
+			"localized": "전체"
+		},
+		{
+			"default": "Exclude incoming",
+			"localized": "수신 제외"
+		},
+		{
+			"default": "Character Name",
+			"localized": "캐릭터 이름"
+		},
+		{
+			"default": "Filter",
+			"localized": "필터"
+		},
+		{
+			"default": "From Character",
+			"localized": "캐릭터로부터"
+		},
+		{
+			"default": "Message",
+			"localized": "메시지"
+		},
+		{
+			"default": "Loading...",
+			"localized": "불러오는 중..."
+		},
+		{
+			"default": "Forum",
+			"localized": "게시판"
+		},
+		{
+			"default": "Thread",
+			"localized": "게시글"
+		},
+		{
+			"default": "View Post",
+			"localized": "글 보기"
+		},
+		{
+			"default": "Set guild name",
+			"localized": "길드 이름 설정"
+		},
+		{
+			"default": "Save",
+			"localized": "저장"
+		},
+		{
+			"default": "Set guild tag",
+			"localized": "길드 태그 설정"
+		},
+		{
+			"default": "Set guild status message",
+			"localized": "길드 상태 메시지 설정"
+		},
+		{
+			"default": "ID",
+			"localized": "ID"
+		},
+		{
+			"default": "Points",
+			"localized": "포인트"
+		},
+		{
+			"default": "Created",
+			"localized": "생성 완료"
+		},
+		{
+			"default": "Change Member Type",
+			"localized": "지위 변경"
+		},
+		{
+			"default": "Leader",
+			"localized": "대표"
+		},
+		{
+			"default": "Officer",
+			"localized": "임원"
+		},
+		{
+			"default": "Member",
+			"localized": "길드원"
+		},
+		{
+			"default": "Change",
+			"localized": "변경"
+		},
+		{
+			"default": "Members",
+			"localized": "회원"
+		},
+		{
+			"default": "Name",
+			"localized": "이름"
+		},
+		{
+			"default": "Position",
+			"localized": "직위"
+		},
+		{
+			"default": "Details",
+			"localized": "세부 정보"
+		},
+		{
+			"default": "Garena UID",
+			"localized": "Garena UID"
+		},
+		{
+			"default": "Steam ID",
+			"localized": "Steam ID"
+		},
+		{
+			"default": "Destroyed Steam Account",
+			"localized": "삭제된 Steam 계정"
+		},
+		{
+			"default": "Account name",
+			"localized": "계정 이름"
+		},
+		{
+			"default": "Change Name",
+			"localized": "이름 변경"
+		},
+		{
+			"default": "FLAGS",
+			"localized": "표시"
+		},
+		{
+			"default": "Flag set",
+			"localized": "표시 설정"
+		},
+		{
+			"default": "Flag not set",
+			"localized": "표시 설정 안 됨"
+		},
+		{
+			"default": "Unset",
+			"localized": "설정 취소"
+		},
+		{
+			"default": "Set",
+			"localized": "설정"
+		},
+		{
+			"default": "Email",
+			"localized": "이메일"
+		},
+		{
+			"default": "Change Email",
+			"localized": "이메일 변경"
+		},
+		{
+			"default": "Set Random Password",
+			"localized": "무작위 비밀번호 설정"
+		},
+		{
+			"default": "Flag Compromised",
+			"localized": "표시 노출"
+		},
+		{
+			"default": "Unflag Compromised",
+			"localized": "표시 취소 노출"
+		},
+		{
+			"default": "Timezone",
+			"localized": "시간대"
+		},
+		{
+			"default": "Create IP",
+			"localized": "IP 생성"
+		},
+		{
+			"default": "Last IP",
+			"localized": "이전 IP"
+		},
+		{
+			"default": "Last client IP",
+			"localized": "이전 클라이언트 IP"
+		},
+		{
+			"default": "IP Login History",
+			"localized": "IP 로그인 내역"
+		},
+		{
+			"default": "Yes Login IP Check",
+			"localized": "로그인 IP 확인 사용"
+		},
+		{
+			"default": "No Login IP Check",
+			"localized": "로그인 IP 확인 사용 안 함"
+		},
+		{
+			"default": "Verified",
+			"localized": "인증 완료"
+		},
+		{
+			"default": "Set Verified",
+			"localized": "인증 완료 설정"
+		},
+		{
+			"default": "No",
+			"localized": "아니요"
+		},
+		{
+			"default": "Yes",
+			"localized": "예"
+		},
+		{
+			"default": "Staff Member",
+			"localized": "직원"
+		},
+		{
+			"default": "Moderator",
+			"localized": "관리자"
+		},
+		{
+			"default": "Unban",
+			"localized": "차단 취소"
+		},
+		{
+			"default": "Deleted",
+			"localized": "삭제됨"
+		},
+		{
+			"default": "Delete Time",
+			"localized": "시간 삭제"
+		},
+		{
+			"default": "Undelete",
+			"localized": "삭제 취소"
+		},
+		{
+			"default": "Locked",
+			"localized": "잠김"
+		},
+		{
+			"default": "Unlock",
+			"localized": "잠금 해제"
+		},
+		{
+			"default": "Lock",
+			"localized": "잠금"
+		},
+		{
+			"default": "Lock Reason",
+			"localized": "잠금 사유"
+		},
+		{
+			"default": "Confirm Lock",
+			"localized": "잠금 확인"
+		},
+		{
+			"default": "Probation",
+			"localized": "제재"
+		},
+		{
+			"default": "Orphaned",
+			"localized": "버려짐"
+		},
+		{
+			"default": "Unorphan",
+			"localized": "버리기 취소"
+		},
+		{
+			"default": "Orphan",
+			"localized": "버리기"
+		},
+		{
+			"default": "Last Login",
+			"localized": "이전 로그인"
+		},
+		{
+			"default": "Create Agent",
+			"localized": "에이전트 생성"
+		},
+		{
+			"default": "Last Agent",
+			"localized": "이전 에이전트"
+		},
+		{
+			"default": "Visitor ID",
+			"localized": "방문자 ID"
+		},
+		{
+			"default": "Hardware hash",
+			"localized": "하드웨어 해시"
+		},
+		{
+			"default": "Hell Mute Hash",
+			"localized": "헬 채팅 차단 해시"
+		},
+		{
+			"default": "Unban Hash",
+			"localized": "해시 차단 취소"
+		},
+		{
+			"default": "Hash Login History",
+			"localized": "해시 로그인 내역"
+		},
+		{
+			"default": "Muted until time",
+			"localized": "일정 시간 채팅 차단"
+		},
+		{
+			"default": "Muted",
+			"localized": "채팅 차단 완료"
+		},
+		{
+			"default": "Mark as spam bot",
+			"localized": "스팸 봇으로 표시"
+		},
+		{
+			"default": "Unlock code",
+			"localized": "잠금 해제 코드"
+		},
+		{
+			"default": "Cursed",
+			"localized": "저주 받음"
+		},
+		{
+			"default": "Uncurse",
+			"localized": "저주 해제"
+		},
+		{
+			"default": "Credited Name",
+			"localized": "기여자 이름"
+		},
+		{
+			"default": "Change Credited Name",
+			"localized": "기여자 이름 변경"
+		},
+		{
+			"default": "Signature",
+			"localized": "서명"
+		},
+		{
+			"default": "Disable honeypot",
+			"localized": "허니팟 끄기"
+		},
+		{
+			"default": "Enable honeypot",
+			"localized": "허니팟 켜기"
+		},
+		{
+			"default": "Show email change requests",
+			"localized": "이메일 변경 요청 표시"
+		},
+		{
+			"default": "Custom avatars",
+			"localized": "사용자 지정 아바타"
+		},
+		{
+			"default": "Season History",
+			"localized": "시즌 기록"
+		},
+		{
+			"default": "Unlink Steam",
+			"localized": "Steam 연결 해제"
+		},
+		{
+			"default": "Restore Deleted Steam Account",
+			"localized": "삭제된 Steam 계정 복구"
+		},
+		{
+			"default": "Show Pending Accounts",
+			"localized": "보류 중인 계정 표시"
+		},
+		{
+			"default": "Email Change Requests",
+			"localized": "이메일 변경 요청"
+		},
+		{
+			"default": "Pending Accounts",
+			"localized": "보류 중인 계정"
+		},
+		{
+			"default": "Name change history",
+			"localized": "이름 변경 내역"
+		},
+		{
+			"default": "by",
+			"localized": ":"
+		},
+		{
+			"default": "Email change history",
+			"localized": "이메일 변경 내역"
+		},
+		{
+			"default": "Characters",
+			"localized": "캐릭터"
+		},
+		{
+			"default": "Microtransactions",
+			"localized": "포인트 아이템"
+		},
+		{
+			"default": "NOTE: The error \"Your character is not the owner of this item\" may mean the MTX is no longer in the MTX stash",
+			"localized": "참고: \"본 아이템을 소유하고 있는 캐릭터가 아닙니다.\" 오류는 MTX 보관함에 MTX가 없음을 의미할 수도 있습니다."
+		},
+		{
+			"default": "Edit Settings",
+			"localized": "설정 편집"
+		},
+		{
+			"default": "Shipping Address",
+			"localized": "배송지 주소"
+		},
+		{
+			"default": "Address Line 1",
+			"localized": "주소"
+		},
+		{
+			"default": "Address Line 2",
+			"localized": "상세 주소"
+		},
+		{
+			"default": "Address Zip / Postal Code",
+			"localized": "우편번호"
+		},
+		{
+			"default": "City",
+			"localized": "도시"
+		},
+		{
+			"default": "State",
+			"localized": "주"
+		},
+		{
+			"default": "Country",
+			"localized": "국가"
+		},
+		{
+			"default": "Shirt Size",
+			"localized": "셔츠 사이즈"
+		},
+		{
+			"default": "International Shipping",
+			"localized": "국제 배송"
+		},
+		{
+			"default": "Edit Shipping Address",
+			"localized": "배송지 주소 편집"
+		},
+		{
+			"default": "Open Beta points pack summary",
+			"localized": "공개 베타 포인트 팩 요약"
+		},
+		{
+			"default": "Points purchased",
+			"localized": "구매한 포인트"
+		},
+		{
+			"default": "Less unspent points since 24 May",
+			"localized": "5월 24일 이후 사용하지 않은 포인트 줄음"
+		},
+		{
+			"default": "Unspent points since 23 Oct 2013",
+			"localized": "2013년 10월 23일 이후 사용하지 않은 포인트"
+		},
+		{
+			"default": "Calculator",
+			"localized": "계산기"
+		},
+		{
+			"default": "Survivor Pack",
+			"localized": "생존자 팩"
+		},
+		{
+			"default": "Warrior Pack",
+			"localized": "전사 팩"
+		},
+		{
+			"default": "Champion Pack",
+			"localized": "용사 팩"
+		},
+		{
+			"default": "Payment Transactions",
+			"localized": "거래 결제"
+		},
+		{
+			"default": "Honey Potted",
+			"localized": "하니팟 적용"
+		},
+		{
+			"default": "Add Points",
+			"localized": "포인트 추가"
+		},
+		{
+			"default": "Sub Points",
+			"localized": "포인트 삭감"
+		},
+		{
+			"default": "Undo All",
+			"localized": "전체 실행 취소"
+		},
+		{
+			"default": "Default Stripe Customer",
+			"localized": "기본 스트라이프 고객"
+		},
+		{
+			"default": "Add points amount",
+			"localized": "추가 포인트"
+		},
+		{
+			"default": "Notes",
+			"localized": "쪽지"
+		},
+		{
+			"default": "Go",
+			"localized": "이동"
+		},
+		{
+			"default": "Sub points amount",
+			"localized": "삭제 포인트"
+		},
+		{
+			"default": "Give pack",
+			"localized": "팩 지급"
+		},
+		{
+			"default": "Amount",
+			"localized": "수량"
+		},
+		{
+			"default": "Note by",
+			"localized": "노트 작성자:"
+		},
+		{
+			"default": "Hash",
+			"localized": "해시"
+		},
+		{
+			"default": "IP",
+			"localized": "IP"
+		},
+		{
+			"default": "Role Manager",
+			"localized": "역할 관리자"
+		},
+		{
+			"default": "Manual",
+			"localized": "수동"
+		},
+		{
+			"default": "Guild",
+			"localized": "길드"
+		},
+		{
+			"default": "Find a guild by ID or Tag.",
+			"localized": "ID 또는 태그로 길드를 검색합니다."
+		},
+		{
+			"default": "Add",
+			"localized": "추가"
+		},
+		{
+			"default": "Remove",
+			"localized": "제거"
+		},
+		{
+			"default": "Delete",
+			"localized": "삭제"
+		},
+		{
+			"default": "Start",
+			"localized": "시작"
+		},
+		{
+			"default": "End",
+			"localized": "종료"
+		},
+		{
+			"default": "Filter message",
+			"localized": "메시지 필터링"
+		},
+		{
+			"default": "on",
+			"localized": "켜기"
+		},
+		{
+			"default": "Livestream",
+			"localized": "라이브스트림"
+		},
+		{
+			"default": "Blacklist",
+			"localized": "블랙리스트"
+		},
+		{
+			"default": "Current blacklist",
+			"localized": "현재 블랙리스트"
+		},
+		{
+			"default": "Add to blacklist",
+			"localized": "블랙리스트에 추가"
+		},
+		{
+			"default": "Channel name",
+			"localized": "채널 이름"
+		},
+		{
+			"default": "Un-Flag Hash",
+			"localized": "해시 표시 해제"
+		},
+		{
+			"default": "Flag Hash",
+			"localized": "해시 표시"
+		},
+		{
+			"default": "Unique client IPs used to login",
+			"localized": "로그인 시 고유 클라이언트 IP 사용"
+		},
+		{
+			"default": "Unique hardware hashes used to login",
+			"localized": "로그인 시 고유 하드웨어 해시 사용"
+		},
+		{
+			"default": "Last Logout",
+			"localized": "이전 로그아웃"
+		},
+		{
+			"default": "Transactions",
+			"localized": "결제"
+		},
+		{
+			"default": "Ban Account",
+			"localized": "계정 차단"
+		},
+		{
+			"default": "Moderator Notes",
+			"localized": "관리자 노트"
+		},
+		{
+			"default": "Future Ban",
+			"localized": "향후 차단"
+		},
+		{
+			"default": "Remove Ban",
+			"localized": "차단 제거"
+		},
+		{
+			"default": "Delete Account",
+			"localized": "계정 삭제"
+		},
+		{
+			"default": "Muted until",
+			"localized": "다음까지 채팅 차단"
+		},
+		{
+			"default": "hour(s)",
+			"localized": "시간"
+		},
+		{
+			"default": "minute(s)",
+			"localized": "분"
+		},
+		{
+			"default": "second(s)",
+			"localized": "초"
+		},
+		{
+			"default": "On probation until",
+			"localized": "다음까지 계정 제재"
+		},
+		{
+			"default": "Duration",
+			"localized": "지속시간"
+		},
+		{
+			"default": "Show post content",
+			"localized": "글 내용 표시"
+		},
+		{
+			"default": "View thread",
+			"localized": "게시글 보기"
+		},
+		{
+			"default": "Moved from forum",
+			"localized": "게시판에서 이동"
+		},
+		{
+			"default": "Events",
+			"localized": "이벤트"
+		},
+		{
+			"default": "Moderation Type",
+			"localized": "관리 유형"
+		},
+		{
+			"default": "Include System Events",
+			"localized": "시스템 이벤트 포함"
+		},
+		{
+			"default": "Hide System Events",
+			"localized": "시스템 이벤트 숨기기"
+		},
+		{
+			"default": "Show Only System Events",
+			"localized": "시스템 이벤트만 표시"
+		},
+		{
+			"default": "Key Redemptions",
+			"localized": "쿠폰 사용"
+		},
+		{
+			"default": "Moderator Stats",
+			"localized": "관리자 능력치"
+		},
+		{
+			"default": "Average Report Response Time",
+			"localized": "평균 신고 응답 시간"
+		},
+		{
+			"default": "Only reports from the last month are included",
+			"localized": "이전 달 신고만 포함"
+		},
+		{
+			"default": "Count",
+			"localized": "숫자"
+		},
+		{
+			"default": "Average",
+			"localized": "평균"
+		},
+		{
+			"default": "Add Note",
+			"localized": "노트 추가"
+		},
+		{
+			"default": "Note",
+			"localized": "노트"
+		},
+		{
+			"default": "Nuke Account",
+			"localized": "계정 폭격"
+		},
+		{
+			"default": "Place on probation",
+			"localized": "제재 목록에 추가"
+		},
+		{
+			"default": "Probation Reason",
+			"localized": "제재 사유"
+		},
+		{
+			"default": "Probation Length",
+			"localized": "제재 기간"
+		},
+		{
+			"default": "Probation Length Units",
+			"localized": "제재 기간 단위"
+		},
+		{
+			"default": "Seconds",
+			"localized": "초"
+		},
+		{
+			"default": "Minutes",
+			"localized": "분"
+		},
+		{
+			"default": "Hours",
+			"localized": "시간"
+		},
+		{
+			"default": "Days",
+			"localized": "일"
+		},
+		{
+			"default": "Weeks",
+			"localized": "주"
+		},
+		{
+			"default": "Months",
+			"localized": "달"
+		},
+		{
+			"default": "You have been muted for {TIME} for {REASON}. Please contact support@grindinggear.com if you would like to speak with a GGG staff member directly.",
+			"localized": "{REASON}(으)로 {TIME}동안 채팅을 사용할 수 없습니다. GOG 직원에게 직접 문의하려면 support@grindinggear.com으로 연락하십시오."
+		},
+		{
+			"default": "Mute",
+			"localized": "음소거"
+		},
+		{
+			"default": "Forum",
+			"localized": "게시판"
+		},
+		{
+			"default": "Reports for",
+			"localized": "다음으로 신고"
+		},
+		{
+			"default": "Hell Mute",
+			"localized": "헬 채팅 차단"
+		},
+		{
+			"default": "Send Whisper",
+			"localized": "귓속말 보내기"
+		},
+		{
+			"default": "Reason",
+			"localized": "사유"
+		},
+		{
+			"default": "Please select a reason",
+			"localized": "사유를 선택하십시오"
+		},
+		{
+			"default": "abuse",
+			"localized": "악용"
+		},
+		{
+			"default": "harassment",
+			"localized": "정신적 폭력"
+		},
+		{
+			"default": "an offensive character name",
+			"localized": "부적절한 캐릭터명"
+		},
+		{
+			"default": "spam",
+			"localized": "과도한 광고"
+		},
+		{
+			"default": "trading in General Chat",
+			"localized": "일반 채팅에서 거래"
+		},
+		{
+			"default": "Whisper to be sent to player",
+			"localized": "플레이어에게 보낼 귓속말"
+		},
+		{
+			"default": "Dismiss All",
+			"localized": "모두 취소"
+		},
+		{
+			"default": "NEW",
+			"localized": "신규"
+		},
+		{
+			"default": "DISMISSED",
+			"localized": "취소"
+		},
+		{
+			"default": "reported by",
+			"localized": "신고자:"
+		},
+		{
+			"default": "View",
+			"localized": "보기"
+		},
+		{
+			"default": "Edit",
+			"localized": "편집"
+		},
+		{
+			"default": "Reload",
+			"localized": "다시 불러오기"
+		},
+		{
+			"default": "Back",
+			"localized": "뒤로"
+		},
+		{
+			"default": "Roles",
+			"localized": "역할"
+		},
+		{
+			"default": "Add role",
+			"localized": "역할 추가"
+		},
+		{
+			"default": "Trophy Name",
+			"localized": "트로피 이름"
+		},
+		{
+			"default": "Trophy Description",
+			"localized": "트로피 설명"
+		},
+		{
+			"default": "Update",
+			"localized": "업데이트"
+		},
+		{
+			"default": "Updated",
+			"localized": "업데이트 완료"
+		},
+		{
+			"default": "Gifted Microtransactions",
+			"localized": "선물 받은 포인트 아이템"
+		},
+		{
+			"default": "NOTE: The error \"Your character is not the owner of this item\" may mean that the gift has not yet been opened or the MTX is no longer in the MTX stash",
+			"localized": "참고: \"본 아이템을 소유하고 있는 캐릭터가 아닙니다.\" 오류는 선물이 아직 개봉되지 않았거나 MTX 보관함에 MTX가 없음을 의미할 수도 있습니다."
+		},
+		{
+			"default": "Used",
+			"localized": "사용됨"
+		},
+		{
+			"default": "Unused",
+			"localized": "사용되지 않음"
+		},
+		{
+			"default": "Set as Used",
+			"localized": "사용됨으로 표시"
+		},
+		{
+			"default": "Num keys",
+			"localized": "숫자 키"
+		},
+		{
+			"default": "Prefix (2 or 3 characters)",
+			"localized": "접두어(2~3자)"
+		},
+		{
+			"default": "Generate",
+			"localized": "생성"
+		},
+		{
+			"default": "Search for a full key, an account ID or use the * character to search for partial keys, eg \"NV*\"",
+			"localized": "완전한 키 또는 계정 ID를 검색하거나 *를 사용해 키 일부를 찾습니다(예: \"NV*\")."
+		},
+		{
+			"default": "Search...",
+			"localized": "검색..."
+		},
+		{
+			"default": "Total",
+			"localized": "총"
+		},
+		{
+			"default": "NOTE: The error \"Your character is not the owner of this item\" may mean the MTX is no longer in the MTX stash",
+			"localized": "참고: \"본 아이템을 소유하고 있는 캐릭터가 아닙니다.\" 오류는 MTX 보관함에 MTX가 없음을 의미할 수도 있습니다."
+		},
+		{
+			"default": "Warning! This item is not for sale, are you sure you\\'ve selected the correct item?",
+			"localized": "경고! 이 아이템은 판매하는 아이템이 아닙니다. 올바른 아이템을 선택한 것이 맞습니까?"
+		},
+		{
+			"default": "Quantity",
+			"localized": "수량"
+		},
+		{
+			"default": "Add",
+			"localized": "추가"
+		},
+		{
+			"default": "Purchase total",
+			"localized": "총 구매"
+		},
+		{
+			"default": "Site-wide special",
+			"localized": "사이트 전체 스페셜"
+		},
+		{
+			"default": "Special Cost",
+			"localized": "특별 비용"
+		},
+		{
+			"default": "Image URL",
+			"localized": "이미지 URL"
+		},
+		{
+			"default": "Start at",
+			"localized": "시작:"
+		},
+		{
+			"default": "End at",
+			"localized": "종료:"
+		},
+		{
+			"default": "Description",
+			"localized": "설명"
+		},
+		{
+			"default": "Item special",
+			"localized": "아이템 스페셜"
+		},
+		{
+			"default": "Category special",
+			"localized": "유형 스페셜"
+		},
+		{
+			"default": "Set Amount",
+			"localized": "수량 설정"
+		},
+		{
+			"default": "Percentage Amount",
+			"localized": "백분율"
+		},
+		{
+			"default": "Add special",
+			"localized": "스페셜 추가"
+		},
+		{
+			"default": "All",
+			"localized": "모두"
+		},
+		{
+			"default": "Upcoming",
+			"localized": "예정"
+		},
+		{
+			"default": "Active",
+			"localized": "활성"
+		},
+		{
+			"default": "Start Date",
+			"localized": "시작일"
+		},
+		{
+			"default": "End Date",
+			"localized": "종료일"
+		},
+		{
+			"default": "ASC",
+			"localized": "ASC"
+		},
+		{
+			"default": "DESC",
+			"localized": "DESC"
+		},
+		{
+			"default": "Signature Seasons",
+			"localized": "대표 시즌"
+		},
+		{
+			"default": "Continent code",
+			"localized": "대륙 코드"
+		},
+		{
+			"default": "Banned from website",
+			"localized": "웹사이트에서 차단"
+		},
+		{
+			"default": "Ban IP From Website",
+			"localized": "웹사이트에서 IP 차단"
+		},
+		{
+			"default": "Unban IP From Website",
+			"localized": "웹사이트에서 IP 차단 해제"
+		},
+		{
+			"default": "Banned from game",
+			"localized": "게임에서 차단"
+		},
+		{
+			"default": "Banned until",
+			"localized": "다음까지 차단:"
+		},
+		{
+			"default": "Extend IP Ban",
+			"localized": "IP 차단 연장"
+		},
+		{
+			"default": "Ban IP From Game",
+			"localized": "게임에서 IP 차단"
+		},
+		{
+			"default": "Unban IP From Game",
+			"localized": "게임에서 IP 차단 해제"
+		},
+		{
+			"default": "Error",
+			"localized": "오류"
+		},
+		{
+			"default": "Transaction ID",
+			"localized": "거래 ID"
+		},
+		{
+			"default": "Txn ID",
+			"localized": "Txn ID"
+		},
+		{
+			"default": "Merge",
+			"localized": "병합"
+		},
+		{
+			"default": "Upgrade",
+			"localized": "업그레이드"
+		},
+		{
+			"default": "Merge Into",
+			"localized": "다음으로 병합:"
+		},
+		{
+			"default": "Upgrade to",
+			"localized": "다음으로 업그레이드:"
+		},
+		{
+			"default": "Transfer to account name",
+			"localized": "계정 이름으로 전송"
+		},
+		{
+			"default": "New",
+			"localized": "신규"
+		},
+		{
+			"default": "Undone",
+			"localized": "실행 취소"
+		},
+		{
+			"default": "Payment Pending",
+			"localized": "보류된 결제"
+		},
+		{
+			"default": "Payment Failed",
+			"localized": "결제 실패"
+		},
+		{
+			"default": "Failed To Reconcile",
+			"localized": "화해 실패"
+		},
+		{
+			"default": "Charge Back",
+			"localized": "재부과"
+		},
+		{
+			"default": "Refunded",
+			"localized": "환불 완료"
+		},
+		{
+			"default": "Internal Pending",
+			"localized": "내부 보류"
+		},
+		{
+			"default": "Internal Unhandled",
+			"localized": "내부 핸들링 취소"
+		},
+		{
+			"default": "Merged",
+			"localized": "병합 완료"
+		},
+		{
+			"default": "Upgraded",
+			"localized": "업그레이드 완료"
+		},
+		{
+			"default": "Transferred",
+			"localized": "전송 완료"
+		},
+		{
+			"default": "Merged from transaction",
+			"localized": "거래에서 병합 완료"
+		},
+		{
+			"default": "Merged into transaction",
+			"localized": "거래로 병합 완료"
+		},
+		{
+			"default": "Upgraded to transaction",
+			"localized": "거래로 업그레이드 완료"
+		},
+		{
+			"default": "Upgraded from transaction",
+			"localized": "거래에서 업그레이드 완료"
+		},
+		{
+			"default": "Transferred from transaction",
+			"localized": "거래에서 전송 완료"
+		},
+		{
+			"default": "Transferred to transaction",
+			"localized": "거래로 전송 완료"
+		},
+		{
+			"default": "Undo",
+			"localized": "실행 취소"
+		},
+		{
+			"default": "Expires",
+			"localized": "만료"
+		},
+		{
+			"default": "Microtransaction",
+			"localized": "전체"
+		},
+		{
+			"default": "Gifted from {GIFTER_ACCOUNT} to {GIFTEE_ACCOUNT}",
+			"localized": "{GIFTER_ACCOUNT} 님이 {GIFTEE_ACCOUNT} 님에게 선물"
+		},
+		{
+			"default": "Your showcase is empty. Click a {PIN} to pin a notable item here.",
+			"localized": "쇼케이스가 비었습니다. {PIN}을 클릭해 여기에 중요한 아이템으 고정하십시오."
+		},
+		{
+			"default": "Cancel",
+			"localized": "취소"
+		},
+		{
+			"default": "Lifetime Points",
+			"localized": "누적 포인트"
+		},
+		{
+			"default": "Overall",
+			"localized": "전체"
+		},
+		{
+			"default": "Standard",
+			"localized": "스탠다드"
+		},
+		{
+			"default": "Hardcore",
+			"localized": "하드코어"
+		},
+		{
+			"default": "Overall Points",
+			"localized": "전체 포인트"
+		},
+		{
+			"default": "Standard Points",
+			"localized": "스탠다드 포인트"
+		},
+		{
+			"default": "Hardcore Points",
+			"localized": "하드코어 포인트"
+		},
+		{
+			"default": "Forum Title",
+			"localized": "게시판 칭호"
+		},
+		{
+			"default": "Corrupted",
+			"localized": "타락"
+		},
+		{
+			"default": "Unidentified",
+			"localized": "미확인"
+		},
+		{
+			"default": "January",
+			"localized": "1월"
+		},
+		{
+			"default": "February",
+			"localized": "2월"
+		},
+		{
+			"default": "March",
+			"localized": "3월"
+		},
+		{
+			"default": "April",
+			"localized": "4월"
+		},
+		{
+			"default": "May",
+			"localized": "5월"
+		},
+		{
+			"default": "June",
+			"localized": "6월"
+		},
+		{
+			"default": "July",
+			"localized": "7월"
+		},
+		{
+			"default": "August",
+			"localized": "8월"
+		},
+		{
+			"default": "September",
+			"localized": "9월"
+		},
+		{
+			"default": "October",
+			"localized": "10월"
+		},
+		{
+			"default": "November",
+			"localized": "11월"
+		},
+		{
+			"default": "December",
+			"localized": "12월"
+		},
+		{
+			"default": "Jan",
+			"localized": "1월"
+		},
+		{
+			"default": "Feb",
+			"localized": "2월"
+		},
+		{
+			"default": "Mar",
+			"localized": "3월"
+		},
+		{
+			"default": "Apr",
+			"localized": "4월"
+		},
+		{
+			"default": "May",
+			"localized": "5월"
+		},
+		{
+			"default": "Jun",
+			"localized": "준"
+		},
+		{
+			"default": "Jul",
+			"localized": "7월"
+		},
+		{
+			"default": "Aug",
+			"localized": "8월"
+		},
+		{
+			"default": "Sep",
+			"localized": "9월"
+		},
+		{
+			"default": "Oct",
+			"localized": "10월"
+		},
+		{
+			"default": "Nov",
+			"localized": "11월"
+		},
+		{
+			"default": "Dec",
+			"localized": "12월"
+		},
+		{
+			"default": "Starts in {before}",
+			"localized": "{before} 후 시작"
+		},
+		{
+			"default": "Ends in {before}",
+			"localized": "{before} 후 종료"
+		},
+		{
+			"default": "Starts in {after}",
+			"localized": "{after} 후 시작"
+		},
+		{
+			"default": "Ends in {after}",
+			"localized": "{after} 후 종료"
+		},
+		{
+			"default": "Transfer",
+			"localized": "전송"
+		},
+		{
+			"default": "points to your guild",
+			"localized": "포인트를 길드로"
+		},
+		{
+			"default": "point to your guild",
+			"localized": "포인트 (길드로 전송하시겠습니까)"
+		},
+		{
+			"default": "Draft out of sync",
+			"localized": "드래프트 싱크 안 맞음"
+		},
+		{
+			"default": "Draft up to date",
+			"localized": "드래프트 최근 시점까지 반영"
+		},
+		{
+			"default": "GarenaCISSeason1",
+			"localized": "GarenaCISSeason1"
+		},
+		{
+			"default": "Emberwake Race Season",
+			"localized": "잉걸불 지피기 경주 시즌"
+		},
+		{
+			"default": "Bloodgrip Race Season",
+			"localized": "피의 지배 경주 시즌"
+		},
+		{
+			"default": "Soulthirst Race Season",
+			"localized": "영혼 갈증 경주 시즌"
+		},
+		{
+			"default": "Winterheart Race Season",
+			"localized": "겨울의 중심 경주 시즌"
+		},
+		{
+			"default": "[ Expand ]",
+			"localized": "[펼치기]"
+		},
+		{
+			"default": "[ Collapse ]",
+			"localized": "[접기]"
+		},
+		{
+			"default": " Saved at  ",
+			"localized": " 다음에 저장: "
+		},
+		{
+			"default": "Saving draft",
+			"localized": "드래프트를 저장하는 중"
+		},
+		{
+			"default": "You are editing a saved draft. Click here to edit the original.",
+			"localized": "저장된 드래프트를 편집하고 있습니다. 원본을 편집하려면 여기를 클릭하십시오."
+		},
+		{
+			"default": "Stack Size",
+			"localized": "스택 크기"
+		},
+		{
+			"default": "Talisman Tier:",
+			"localized": "부적 등급:"
+		},
+		{
+			"default": "New Note",
+			"localized": "신규 노트"
+		},
+		{
+			"default": "Edit Note",
+			"localized": "노트 편집"
+		},
+		{
+			"default": "Slayer",
+			"localized": "슬레이어"
+		},
+		{
+			"default": "Gladiator",
+			"localized": "글래디에이터"
+		},
+		{
+			"default": "Champion",
+			"localized": "챔피언"
+		},
+		{
+			"default": "Assassin",
+			"localized": "어쌔신"
+		},
+		{
+			"default": "Saboteur",
+			"localized": "사보추어"
+		},
+		{
+			"default": "Trickster",
+			"localized": "트릭스터"
+		},
+		{
+			"default": "Juggernaut",
+			"localized": "저거넛"
+		},
+		{
+			"default": "Berserker",
+			"localized": "버서커"
+		},
+		{
+			"default": "Chieftain",
+			"localized": "치프틴"
+		},
+		{
+			"default": "Necromancer",
+			"localized": "네크로맨서"
+		},
+		{
+			"default": "Occultist",
+			"localized": "오컬티스트"
+		},
+		{
+			"default": "Elementalist",
+			"localized": "엘리멘탈리스트"
+		},
+		{
+			"default": "Deadeye",
+			"localized": "데드아이"
+		},
+		{
+			"default": "Raider",
+			"localized": "레이더"
+		},
+		{
+			"default": "Pathfinder",
+			"localized": "패스파인더"
+		},
+		{
+			"default": "Inquisitor",
+			"localized": "인퀴지터"
+		},
+		{
+			"default": "Hierophant",
+			"localized": "하이로펀트"
+		},
+		{
+			"default": "Guardian",
+			"localized": "가디언"
+		},
+		{
+			"default": "Ascendant",
+			"localized": "어센던트"
+		},
+		{
+			"default": "None",
+			"localized": "없음"
+		},
+		{
+			"default": "Normal",
+			"localized": "일반"
+		},
+		{
+			"default": "Cruel",
+			"localized": "잔혹"
+		},
+		{
+			"default": "Merciless",
+			"localized": "무자비"
+		},
+		{
+			"default": "Format not correct",
+			"localized": "형식이 올바르지 않음"
+		},
+		{
+			"default": "Upload failed.",
+			"localized": "업로드하지 못했습니다."
+		},
+		{
+			"default": "Upload successful.",
+			"localized": "업로드했습니다."
+		},
+		{
+			"default": "Logout successful.",
+			"localized": "로그아웃했습니다."
+		},
+		{
+			"default": "Make this image your avatar?",
+			"localized": "이 이미지를 아바타로 사용하시겠습니까?"
+		},
+		{
+			"default": "The Passive Skill Tree requires a browser that supports canvas.",
+			"localized": "캔버스를 지원하는 브라우저가 있어야 패시브 스킬 트리를 실행할 수 있습니다."
+		},
+		{
+			"default": "If you are running Internet Explorer you need at least version 9. If you are running Internet Explorer 9 and get this message, please make sure compatibility view is disabled.",
+			"localized": "Internet Explorer를 사용한다면 버전이 9 이상이어야 합니다. Internet Explorer 9에서 이 메시지가 표시된다면 호환성 보기가 비활성화되었는지 확인하십시오."
+		},
+		{
+			"default": "You may need to upgrade your browser. Some other browsers that work with the passive skill tree are: ",
+			"localized": "브라우저를 업그레이드해야 할 수 있습니다. 패시브 스킬 트리를 실행할 수 있는 기타 브라우저는 다음과 같습니다. "
+		},
+		{
+			"default": "and",
+			"localized": "및"
+		},
+		{
+			"default": "Full Screen (f)",
+			"localized": "전체 화면(f)"
+		},
+		{
+			"default": "Exit Full Screen (f)",
+			"localized": "전체 화면 나가기(f)"
+		},
+		{
+			"default": "No new posts since you last read this thread",
+			"localized": "이 게시글을 마지막으로 읽은 후 추가된 글 없음"
+		},
+		{
+			"default": "Account-bound",
+			"localized": "계정 등록됨"
+		},
+		{
+			"default": "Medallion Race Season",
+			"localized": "메달리온 경주 시즌"
+		},
+		{
+			"default": "Use Avatar",
+			"localized": "아바타 사용"
+		},
+		{
+			"default": "Current Avatar",
+			"localized": "현재 아바타"
+		},
+		{
+			"default": "Choose Avatar",
+			"localized": "아바타 선택"
+		},
+		{
+			"default": "Public Avatars",
+			"localized": "공개 아바타"
+		},
+		{
+			"default": "Custom Avatars",
+			"localized": "사용자 지정 아바타"
+		},
+		{
+			"default": "Limit reached!",
+			"localized": "제한에 도달했습니다!"
+		},
+		{
+			"default": "You may have up to {MAX} forum supporter titles.",
+			"localized": "소유할 수 있는 최대 게시판 서포터 칭호는 {MAX}개입니다."
+		},
+		{
+			"default": "You may have up to {MAX} forum badges.",
+			"localized": "소유할 수 있는 최대 게시판 배지는 {MAX}개입니다."
+		},
+		{
+			"default": "CIS Race Season Reward",
+			"localized": "CIS 경주 시즌 보상"
+		},
+		{
+			"default": "SG Race Season Reward",
+			"localized": "SG 경주 시즌 보상"
+		},
+		{
+			"default": "TH Race Season Reward",
+			"localized": "TH 경주 시즌 보상"
+		},
+		{
+			"default": "Opted out of physical goods",
+			"localized": "실물 상품 대신 포인트 선택함"
+		},
+		{
+			"default": "BDB Banned Until",
+			"localized": "다음까지 BDB 차단:"
+		},
+		{
+			"default": "You don\\'t have enough points!",
+			"localized": "포인트가 부족합니다!"
+		},
+		{
+			"default": "You can give {{POINTS}} more points today.",
+			"localized": "오늘은 {{POINTS}}포인트까지 더 줄 수 있습니다."
+		},
+		{
+			"default": "You get 1 point per 10 in-game achievements completed to give each day.",
+			"localized": "게임 내 업적 10개를 달성할 때마다 하루에 줄 수 있는 포인트가 1점 증가합니다."
+		},
+		{
+			"default": "Good job!",
+			"localized": "잘하셨습니다!"
+		},
+		{
+			"default": "Give this post a point if you think they did a good job.",
+			"localized": "잘 작성된 글이라고 생각한다면 포인트를 부여하세요."
+		},
+		{
+			"default": "Add Property Filter",
+			"localized": "속성 필터 추가"
+		},
+		{
+			"default": "Add Stat Filter",
+			"localized": "능력치 필터 추가"
+		},
+		{
+			"default": "Add Stat Group Filter",
+			"localized": "능력치 그룹 필터 추가"
+		},
+		{
+			"default": "Item Stats",
+			"localized": "아이템 능력치"
+		},
+		{
+			"default": "Stat Groups",
+			"localized": "능력치 그룹"
+		},
+		{
+			"default": "Item Properties",
+			"localized": "아이템 속성"
+		},
+		{
+			"default": "No Price Set",
+			"localized": "가격 미설정"
+		},
+		{
+			"default": "Online",
+			"localized": "온라인"
+		},
+		{
+			"default": "Offline",
+			"localized": "오프라인"
+		},
+		{
+			"default": "Search Items...",
+			"localized": "아이템 검색..."
+		},
+		{
+			"default": "Highlight Items...",
+			"localized": "아이템 강조..."
+		},
+		{
+			"default": "Any",
+			"localized": "모두"
+		},
+		{
+			"default": "Online Only",
+			"localized": "온라인만"
+		},
+		{
+			"default": "Listed by",
+			"localized": "목록 표시:"
+		},
+		{
+			"default": "No results found",
+			"localized": "결과 없음"
+		},
+		{
+			"default": "Events Schedule",
+			"localized": "이벤트 일정"
+		},
+		{
+			"default": "Please note that the times on this schedule are shown in your local timezone.",
+			"localized": "이 일정은 플레이어 거주 지역 시간으로 표시됩니다."
+		},
+		{
+			"default": "There are no current events.",
+			"localized": "현재 진행 중인 이벤트가 없습니다."
+		},
+		{
+			"default": "Add to Watchlist",
+			"localized": "관심 목록에 추가"
+		},
+		{
+			"default": "Remove from Watchlist",
+			"localized": "관심 목록에서 제거"
+		},
+		{
+			"default": "Starred Items",
+			"localized": "별이 붙은 아이템"
+		},
+		{
+			"default": "Stat Filters",
+			"localized": "능력치 필터"
+		},
+		{
+			"default": "And",
+			"localized": "및"
+		},
+		{
+			"default": "Not",
+			"localized": "제외"
+		},
+		{
+			"default": "If",
+			"localized": "만약"
+		},
+		{
+			"default": "Count",
+			"localized": "숫자"
+		},
+		{
+			"default": "Following {name}...",
+			"localized": "{name} 님을 따라가는 중..."
+		},
+		{
+			"default": "Enter name (alphanumeric)",
+			"localized": "이름 입력(영어 및 숫자)"
+		},
+		{
+			"default": "Search saved!",
+			"localized": "검색을 저장했습니다!"
+		},
+		{
+			"default": "Search failed to save",
+			"localized": "검색 저장 실패"
+		},
+		{
+			"default": "Failed to remove saved search",
+			"localized": "저장된 검색 제거 실패"
+		},
+		{
+			"default": "Searching in {0}...",
+			"localized": "{0}에서 검색하는 중..."
+		},
+		{
+			"default": "An error occurred. Please try again later.",
+			"localized": "오류가 발생했습니다. 나중에 다시 시도하십시오."
+		},
+		{
+			"default": "{i} results",
+			"localized": "결과 {i}개"
+		},
+		{
+			"default": "No results found",
+			"localized": "결과 없음"
+		},
+		{
+			"default": "Show my Status",
+			"localized": "내 상태 표시"
+		},
+		{
+			"default": "Show my Status on All Leagues",
+			"localized": "모든 리그에서 내 상태 표시"
+		},
+		{
+			"default": "Appear Offline",
+			"localized": "오프라인으로 표시"
+		},
+		{
+			"default": "Fetching...",
+			"localized": "가져오는 중..."
+		},
+		{
+			"default": "Orb of Alteration",
+			"localized": "변화의 오브"
+		},
+		{
+			"default": "Orb of Fusing",
+			"localized": "연결의 오브"
+		},
+		{
+			"default": "Orb of Alchemy",
+			"localized": "연금술의 오브"
+		},
+		{
+			"default": "Chaos Orb Equivalent",
+			"localized": "카오스 오브 등가물"
+		},
+		{
+			"default": "Chaos Orb",
+			"localized": "카오스 오브"
+		},
+		{
+			"default": "Gemcutter\\'s Prism",
+			"localized": "세공사의 프리즘"
+		},
+		{
+			"default": "Exalted Orb",
+			"localized": "엑잘티드 오브"
+		},
+		{
+			"default": "Chromatic Orb",
+			"localized": "색채의 오브"
+		},
+		{
+			"default": "Jeweller\\'s Orb",
+			"localized": "쥬얼러 오브"
+		},
+		{
+			"default": "Orb of Chance",
+			"localized": "기회의 오브"
+		},
+		{
+			"default": "Cartographer\\'s Chisel",
+			"localized": "지도제작자의 끌"
+		},
+		{
+			"default": "Orb of Scouring",
+			"localized": "정제의 오브"
+		},
+		{
+			"default": "Blessed Orb",
+			"localized": "축복의 오브"
+		},
+		{
+			"default": "Orb of Regret",
+			"localized": "후회의 오브"
+		},
+		{
+			"default": "Regal Orb",
+			"localized": "제왕의 오브"
+		},
+		{
+			"default": "Divine Orb",
+			"localized": "신성한 오브"
+		},
+		{
+			"default": "Vaal Orb",
+			"localized": "바알 오브"
+		},
+		{
+			"default": "Scroll of Wisdom",
+			"localized": "감정 주문서"
+		},
+		{
+			"default": "Portal Scroll",
+			"localized": "포탈 주문서"
+		},
+		{
+			"default": "Armourer\\'s Scrap",
+			"localized": "방어구 장인의 고철"
+		},
+		{
+			"default": "Blacksmith\\'s Whetstone",
+			"localized": "대장장이의 숫돌"
+		},
+		{
+			"default": "Glassblower\\'s Bauble",
+			"localized": "유리직공의 방울"
+		},
+		{
+			"default": "Orb of Transmutation",
+			"localized": "진화의 오브"
+		},
+		{
+			"default": "Orb of Augmentation",
+			"localized": "확장의 오브"
+		},
+		{
+			"default": "Mirror of Kalandra",
+			"localized": "칼란드라의 거울"
+		},
+		{
+			"default": "Eternal Orb",
+			"localized": "영원의 오브"
+		},
+		{
+			"default": "Perandus Coin",
+			"localized": "페란두스 코인"
+		},
+		{
+			"default": "Silver Coin",
+			"localized": "실버 코인"
+		},
+		{
+			"default": "Apprentice Cartographer\\'s Sextant",
+			"localized": "수습 지도제작자의 육분의"
+		},
+		{
+			"default": "Journeyman Cartographer\\'s Sextant",
+			"localized": "숙련 지도제작자의 육분의"
+		},
+		{
+			"default": "Master Cartographer\\'s Sextant",
+			"localized": "대가 지도제작자의 육분의"
+		},
+		{
+			"default": "Blessing of Xoph",
+			"localized": "조프의 축복"
+		},
+		{
+			"default": "Blessing of Tul",
+			"localized": "툴의 축복"
+		},
+		{
+			"default": "Blessing of Esh",
+			"localized": "에쉬의 축복"
+		},
+		{
+			"default": "Blessing of Uul-Netol",
+			"localized": "울네톨의 축복"
+		},
+		{
+			"default": "Blessing of Chayula",
+			"localized": "차율라의 축복"
+		},
+		{
+			"default": "Sacrifice at Dusk",
+			"localized": "황혼의 희생"
+		},
+		{
+			"default": "Sacrifice at Midnight",
+			"localized": "심야의 희생"
+		},
+		{
+			"default": "Sacrifice at Dawn",
+			"localized": "새벽의 희생"
+		},
+		{
+			"default": "Sacrifice at Noon",
+			"localized": "정오의 희생"
+		},
+		{
+			"default": "Sacrifice Set",
+			"localized": "희생 세트"
+		},
+		{
+			"default": "Mortal Grief",
+			"localized": "필멸의 슬픔"
+		},
+		{
+			"default": "Mortal Rage",
+			"localized": "필멸의 격노"
+		},
+		{
+			"default": "Mortal Hope",
+			"localized": "필멸의 희망"
+		},
+		{
+			"default": "Mortal Ignorance",
+			"localized": "필멸의 무지"
+		},
+		{
+			"default": "Mortal Set",
+			"localized": "필멸 세트"
+		},
+		{
+			"default": "Eber\\'s Key",
+			"localized": "에버의 열쇠"
+		},
+		{
+			"default": "Yriel\\'s Key",
+			"localized": "이리엘의 열쇠"
+		},
+		{
+			"default": "Inya\\'s Key",
+			"localized": "이냐의 열쇠"
+		},
+		{
+			"default": "Volkuur\\'s Key",
+			"localized": "볼쿠르의 열쇠"
+		},
+		{
+			"default": "Pale Court Set",
+			"localized": "창백한 궁정 세트"
+		},
+		{
+			"default": "Fragment of the Hydra",
+			"localized": "히드라의 지도 조각"
+		},
+		{
+			"default": "Fragment of the Phoenix",
+			"localized": "불사조의 지도 조각"
+		},
+		{
+			"default": "Fragment of the Minotaur",
+			"localized": "미노타우로스의 지도 조각"
+		},
+		{
+			"default": "Fragment of the Chimera",
+			"localized": "키메라의 지도 조각"
+		},
+		{
+			"default": "Shaper Set",
+			"localized": "쉐이퍼 세트"
+		},
+		{
+			"default": "Splinter of Xoph",
+			"localized": "조프의 파편"
+		},
+		{
+			"default": "Splinter of Tul",
+			"localized": "툴의 파편"
+		},
+		{
+			"default": "Splinter of Esh",
+			"localized": "에쉬의 파편"
+		},
+		{
+			"default": "Splinter of Uul-Netol",
+			"localized": "울네톨의 파편"
+		},
+		{
+			"default": "Splinter of Chayula",
+			"localized": "차율라의 파편"
+		},
+		{
+			"default": "Xoph\\'s Breachstone",
+			"localized": "조프의 균열석"
+		},
+		{
+			"default": "Tul\\'s Breachstone",
+			"localized": "툴의 균열석"
+		},
+		{
+			"default": "Esh\\'s Breachstone",
+			"localized": "에쉬의 균열석"
+		},
+		{
+			"default": "Uul-Netol\\'s Breachstone",
+			"localized": "울네톨의 균열석"
+		},
+		{
+			"default": "Chayula\\'s Breachstone",
+			"localized": "차율라의 균열석"
+		},
+		{
+			"default": "Offering to the Goddess",
+			"localized": "여신에게 바치는 공물"
+		},
+		{
+			"default": "Type Filters",
+			"localized": "유형 필터"
+		},
+		{
+			"default": "Item Subcategory",
+			"localized": "아이템 하위 유형"
+		},
+		{
+			"default": "One Handed Weapon",
+			"localized": "한손 무기"
+		},
+		{
+			"default": "One Handed Melee Weapon",
+			"localized": "한손 근접 무기"
+		},
+		{
+			"default": "Two Handed Melee Weapon",
+			"localized": "양손 근접 무기"
+		},
+		{
+			"default": "Bow",
+			"localized": "활"
+		},
+		{
+			"default": "Claw",
+			"localized": "클로"
+		},
+		{
+			"default": "Dagger",
+			"localized": "단검"
+		},
+		{
+			"default": "One Handed Axe",
+			"localized": "한손 도끼"
+		},
+		{
+			"default": "One Handed Mace",
+			"localized": "한손 철퇴"
+		},
+		{
+			"default": "One Handed Sword",
+			"localized": "한손 검"
+		},
+		{
+			"default": "Sceptre",
+			"localized": "셉터"
+		},
+		{
+			"default": "Staff",
+			"localized": "지팡이"
+		},
+		{
+			"default": "Two Handed Axe",
+			"localized": "양손 도끼"
+		},
+		{
+			"default": "Two Handed Mace",
+			"localized": "양손 철퇴"
+		},
+		{
+			"default": "Two Handed Sword",
+			"localized": "양손검"
+		},
+		{
+			"default": "Wand",
+			"localized": "마법봉"
+		},
+		{
+			"default": "Fishing Rod",
+			"localized": "낚싯대"
+		},
+		{
+			"default": "Body Armour",
+			"localized": "갑옷"
+		},
+		{
+			"default": "Boots",
+			"localized": "장화"
+		},
+		{
+			"default": "Gloves",
+			"localized": "장갑"
+		},
+		{
+			"default": "Helmet",
+			"localized": "투구"
+		},
+		{
+			"default": "Shield",
+			"localized": "방패"
+		},
+		{
+			"default": "Quiver",
+			"localized": "화살통"
+		},
+		{
+			"default": "Amulet",
+			"localized": "목걸이"
+		},
+		{
+			"default": "Belt",
+			"localized": "허리띠"
+		},
+		{
+			"default": "Ring",
+			"localized": "반지"
+		},
+		{
+			"default": "Gem",
+			"localized": "젬"
+		},
+		{
+			"default": "Abyss Jewel",
+			"localized": "심연 주얼"
+		},
+		{
+			"default": "Jewel",
+			"localized": "주얼"
+		},
+		{
+			"default": "Flask",
+			"localized": "플라스크"
+		},
+		{
+			"default": "Map",
+			"localized": "지도"
+		},
+		{
+			"default": "Leaguestone",
+			"localized": "리그스톤"
+		},
+		{
+			"default": "Prophecy",
+			"localized": "예언"
+		},
+		{
+			"default": "Captured Beast",
+			"localized": "포획한 야수"
+		},
+		{
+			"default": "Divination Card",
+			"localized": "점술 카드"
+		},
+		{
+			"default": "Item Rarity",
+			"localized": "아이템 희귀도"
+		},
+		{
+			"default": "Normal",
+			"localized": "일반"
+		},
+		{
+			"default": "Magic",
+			"localized": "마법"
+		},
+		{
+			"default": "Rare",
+			"localized": "희귀"
+		},
+		{
+			"default": "Unique",
+			"localized": "고유"
+		},
+		{
+			"default": "Relic",
+			"localized": "유물"
+		},
+		{
+			"default": "Unique (Relic)",
+			"localized": "고유 (유물)"
+		},
+		{
+			"default": "Weapon Filters",
+			"localized": "무기 필터"
+		},
+		{
+			"default": "Damage",
+			"localized": "피해"
+		},
+		{
+			"default": "APS",
+			"localized": "APS"
+		},
+		{
+			"default": "Attacks per Second",
+			"localized": "초당 공격 횟수"
+		},
+		{
+			"default": "Crit.",
+			"localized": "치명타"
+		},
+		{
+			"default": "Critical Chance",
+			"localized": "치명타 확률"
+		},
+		{
+			"default": "Damage per Second",
+			"localized": "초당 피해"
+		},
+		{
+			"default": "DPS",
+			"localized": "DPS"
+		},
+		{
+			"default": "pDPS",
+			"localized": "pDPS"
+		},
+		{
+			"default": "Physical DPS",
+			"localized": "물리 DPS"
+		},
+		{
+			"default": "eDPS",
+			"localized": "eDPS"
+		},
+		{
+			"default": "Elemental DPS",
+			"localized": "원소 DPS"
+		},
+		{
+			"default": "Armour Filters",
+			"localized": "방어구 필터"
+		},
+		{
+			"default": "Armour",
+			"localized": "방어도"
+		},
+		{
+			"default": "Evasion",
+			"localized": "회피"
+		},
+		{
+			"default": "E. Shield",
+			"localized": "E. 보호막"
+		},
+		{
+			"default": "Energy Shield",
+			"localized": "에너지 보호막"
+		},
+		{
+			"default": "Block",
+			"localized": "막기"
+		},
+		{
+			"default": "Socket Filters",
+			"localized": "홈 필터"
+		},
+		{
+			"default": "Sockets",
+			"localized": "홈"
+		},
+		{
+			"default": "Links",
+			"localized": "연결부"
+		},
+		{
+			"default": "Requirements",
+			"localized": "요구사항"
+		},
+		{
+			"default": "Level",
+			"localized": "레벨"
+		},
+		{
+			"default": "Str",
+			"localized": "힘"
+		},
+		{
+			"default": "Strength",
+			"localized": "힘"
+		},
+		{
+			"default": "Dex",
+			"localized": "민첩"
+		},
+		{
+			"default": "Dexterity",
+			"localized": "민첩"
+		},
+		{
+			"default": "Int",
+			"localized": "지능"
+		},
+		{
+			"default": "Intelligence",
+			"localized": "지능"
+		},
+		{
+			"default": "Miscellaneous",
+			"localized": "기타"
+		},
+		{
+			"default": "Quality",
+			"localized": "퀄리티"
+		},
+		{
+			"default": "Item Level",
+			"localized": "아이템 레벨"
+		},
+		{
+			"default": "Mod Filters",
+			"localized": "속성 부여 필터"
+		},
+		{
+			"default": "Empty Prefixes",
+			"localized": "빈 접두어"
+		},
+		{
+			"default": "Empty Suffixes",
+			"localized": "빈 접미어"
+		},
+		{
+			"default": "Minimum Empty Affixes",
+			"localized": "최소 빈 수식어"
+		},
+		{
+			"default": "Map Filters",
+			"localized": "지도 필터"
+		},
+		{
+			"default": "Map Tier",
+			"localized": "지도 등급"
+		},
+		{
+			"default": "Map Packsize",
+			"localized": "지도 팩 크기"
+		},
+		{
+			"default": "Map IIQ",
+			"localized": "지도 IIQ"
+		},
+		{
+			"default": "Map IIR",
+			"localized": "지도 IIR"
+		},
+		{
+			"default": "Map Series",
+			"localized": "지도 시리즈"
+		},
+		{
+			"default": "Blight",
+			"localized": "메마름의 시대"
+		},
+		{
+			"default": "Legion",
+			"localized": "군단"
+		},
+		{
+			"default": "War for the Atlas",
+			"localized": "아틀라스 격전"
+		},
+		{
+			"default": "Atlas of Worlds",
+			"localized": "아틀라스의 세계"
+		},
+		{
+			"default": "The Awakening",
+			"localized": "각성"
+		},
+		{
+			"default": "Legacy",
+			"localized": "유산"
+		},
+		{
+			"default": "Shaped Map",
+			"localized": "쉐이퍼 지도"
+		},
+		{
+			"default": "Elder Map",
+			"localized": "엘더 지도"
+		},
+		{
+			"default": "Blighted Map",
+			"localized": "역병 걸린 지도"
+		},
+		{
+			"default": "Captured Beast",
+			"localized": "포획한 야수"
+		},
+		{
+			"default": "Captured Beast Filters",
+			"localized": "포획한 야수 필터"
+		},
+		{
+			"default": "Beast Level",
+			"localized": "야수 레벨"
+		},
+		{
+			"default": "Beast Genus",
+			"localized": "야수 속"
+		},
+		{
+			"default": "Beast Group",
+			"localized": "야수 그룹"
+		},
+		{
+			"default": "Beast Family",
+			"localized": "야수 과"
+		},
+		{
+			"default": "Gargantuans",
+			"localized": "가르강튀아"
+		},
+		{
+			"default": "Goatmen",
+			"localized": "염소인간"
+		},
+		{
+			"default": "Goat Shamans",
+			"localized": "염소 주술사"
+		},
+		{
+			"default": "Hellions",
+			"localized": "헬리온"
+		},
+		{
+			"default": "Wolves",
+			"localized": "늑대"
+		},
+		{
+			"default": "Apes",
+			"localized": "유인원"
+		},
+		{
+			"default": "Rhoas",
+			"localized": "로아"
+		},
+		{
+			"default": "Sand Spitters",
+			"localized": "모래 전갈"
+		},
+		{
+			"default": "Sea Witches",
+			"localized": "바다 마녀"
+		},
+		{
+			"default": "Shield Crabs",
+			"localized": "방패게"
+		},
+		{
+			"default": "Snakes",
+			"localized": "뱀"
+		},
+		{
+			"default": "Spawn",
+			"localized": "유충"
+		},
+		{
+			"default": "Spiders",
+			"localized": "거미"
+		},
+		{
+			"default": "Maws",
+			"localized": "큰턱개구리"
+		},
+		{
+			"default": "Chimerals",
+			"localized": "키메랄"
+		},
+		{
+			"default": "Carrion Queens",
+			"localized": "부패하는 여왕"
+		},
+		{
+			"default": "Carrion Insects",
+			"localized": "부패하는 벌레"
+		},
+		{
+			"default": "Retches",
+			"localized": "레치"
+		},
+		{
+			"default": "Goliaths",
+			"localized": "골리앗"
+		},
+		{
+			"default": "Devourers",
+			"localized": "포식자"
+		},
+		{
+			"default": "Watchers",
+			"localized": "감시자"
+		},
+		{
+			"default": "Plummeting Ursae",
+			"localized": "곤두박질 곰"
+		},
+		{
+			"default": "Vultures",
+			"localized": "시체매"
+		},
+		{
+			"default": "Leapers",
+			"localized": "리퍼"
+		},
+		{
+			"default": "Karui Hounds",
+			"localized": "카루이 사냥개"
+		},
+		{
+			"default": "Pitbulls",
+			"localized": "투견"
+		},
+		{
+			"default": "Cockerels",
+			"localized": "수탉"
+		},
+		{
+			"default": "Bulls",
+			"localized": "황소"
+		},
+		{
+			"default": "Ape Chieftains",
+			"localized": "유인원 부족장"
+		},
+		{
+			"default": "Parasites",
+			"localized": "기생충"
+		},
+		{
+			"default": "Lions",
+			"localized": "사자"
+		},
+		{
+			"default": "Crabs",
+			"localized": "게"
+		},
+		{
+			"default": "Hounds",
+			"localized": "사냥개"
+		},
+		{
+			"default": "Lurchers",
+			"localized": "러처"
+		},
+		{
+			"default": "Arachnoscorpions",
+			"localized": "거미전갈"
+		},
+		{
+			"default": "Rhexes",
+			"localized": "렉스"
+		},
+		{
+			"default": "Scorpions",
+			"localized": "전갈"
+		},
+		{
+			"default": "Lynxes",
+			"localized": "스라소니"
+		},
+		{
+			"default": "Tigers",
+			"localized": "호랑이"
+		},
+		{
+			"default": "Spider Crabs",
+			"localized": "거미게"
+		},
+		{
+			"default": "Octopuses",
+			"localized": "문어"
+		},
+		{
+			"default": "Gem Frogs",
+			"localized": "마석 개구리"
+		},
+		{
+			"default": "Felines",
+			"localized": "고양이과"
+		},
+		{
+			"default": "Primates",
+			"localized": "영장류"
+		},
+		{
+			"default": "Canines",
+			"localized": "개과"
+		},
+		{
+			"default": "Ursae",
+			"localized": "곰과"
+		},
+		{
+			"default": "Unnaturals",
+			"localized": "대형 포유류"
+		},
+		{
+			"default": "Avians",
+			"localized": "조류"
+		},
+		{
+			"default": "Reptiles",
+			"localized": "파충류"
+		},
+		{
+			"default": "Insects",
+			"localized": "곤충과"
+		},
+		{
+			"default": "Arachnids",
+			"localized": "거미류"
+		},
+		{
+			"default": "Cephalopods",
+			"localized": "두족류"
+		},
+		{
+			"default": "Crustaceans",
+			"localized": "갑각류"
+		},
+		{
+			"default": "Amphibians",
+			"localized": "양서류"
+		},
+		{
+			"default": "The Wilds",
+			"localized": "야생"
+		},
+		{
+			"default": "The Sands",
+			"localized": "사막"
+		},
+		{
+			"default": "The Caverns",
+			"localized": "암굴"
+		},
+		{
+			"default": "The Deep",
+			"localized": "심해"
+		},
+		{
+			"default": "Gem Level",
+			"localized": "젬 레벨"
+		},
+		{
+			"default": "Gem Experience %",
+			"localized": "젬 경험치 %"
+		},
+		{
+			"default": "Shaper Item",
+			"localized": "쉐이퍼 아이템"
+		},
+		{
+			"default": "Elder Item",
+			"localized": "엘더 아이템"
+		},
+		{
+			"default": "Talisman Tier",
+			"localized": "부적 등급"
+		},
+		{
+			"default": "Stored Experience",
+			"localized": "저장된 경험치"
+		},
+		{
+			"default": "Durability",
+			"localized": "내구도"
+		},
+		{
+			"default": "Alternate Art",
+			"localized": "대체 아트"
+		},
+		{
+			"default": "Yes",
+			"localized": "예"
+		},
+		{
+			"default": "No",
+			"localized": "아니요"
+		},
+		{
+			"default": "Identified",
+			"localized": "식별됨"
+		},
+		{
+			"default": "Corrupted",
+			"localized": "타락"
+		},
+		{
+			"default": "Crafted",
+			"localized": "제작된"
+		},
+		{
+			"default": "Enchanted",
+			"localized": "인챈트된"
+		},
+		{
+			"default": "Trade Filters",
+			"localized": "거래 필터"
+		},
+		{
+			"default": "Seller Account",
+			"localized": "판매자 계정"
+		},
+		{
+			"default": "Enter account name...",
+			"localized": "계정 이름 입력..."
+		},
+		{
+			"default": "Sale Type",
+			"localized": "판매 형식"
+		},
+		{
+			"default": "Buyout or Fixed Price",
+			"localized": "즉시 구매 또는 고정 가격"
+		},
+		{
+			"default": "No Listed Price",
+			"localized": "표시 가격 없음"
+		},
+		{
+			"default": "Buyout Price",
+			"localized": "즉시 구매 가격"
+		},
+		{
+			"default": "Unknown",
+			"localized": "알 수 없음"
+		},
+		{
+			"default": "Copied!",
+			"localized": "복사 완료!"
+		},
+		{
+			"default": "Added {PLAYER} to your ignore list",
+			"localized": "{PLAYER} 님을 차단 목록에 추가했습니다."
+		},
+		{
+			"default": "Removed {PLAYER} from your ignore list",
+			"localized": "{PLAYER} 님을 차단 목록에서 제거했습니다."
+		},
+		{
+			"default": "Exact Price:",
+			"localized": "정가:"
+		},
+		{
+			"default": "Asking Price:",
+			"localized": "제시 가격:"
+		},
+		{
+			"default": "Current Offer:",
+			"localized": "현재 제시된 가격:"
+		},
+		{
+			"default": "No Price Set",
+			"localized": "가격 미설정"
+		},
+		{
+			"default": "Verified",
+			"localized": "인증 완료"
+		},
+		{
+			"default": "(at max Quality)",
+			"localized": "(최대 퀄리티)"
+		},
+		{
+			"default": "Listed by",
+			"localized": "목록 표시:"
+		},
+		{
+			"default": "Item no longer available",
+			"localized": "아이템 사용 불가"
+		},
+		{
+			"default": "Ignore Player",
+			"localized": "플레이어 차단"
+		},
+		{
+			"default": "Unignore Player",
+			"localized": "플레이어 차단 해제"
+		},
+		{
+			"default": "Whisper",
+			"localized": "귓속말"
+		},
+		{
+			"default": "PM",
+			"localized": "비공개 메시지"
+		},
+		{
+			"default": "Save",
+			"localized": "저장"
+		},
+		{
+			"default": "Contact...",
+			"localized": "연락처..."
+		},
+		{
+			"default": "Online",
+			"localized": "온라인"
+		},
+		{
+			"default": "Offline",
+			"localized": "오프라인"
+		},
+		{
+			"default": "Selling:",
+			"localized": "판매 중:"
+		},
+		{
+			"default": "For:",
+			"localized": "가격:"
+		},
+		{
+			"default": "Search Now",
+			"localized": "지금 검색"
+		},
+		{
+			"default": "View Stream",
+			"localized": "스트림 보기"
+		},
+		{
+			"default": "({0} new items)",
+			"localized": "(신규 아이템 {0}개)"
+		},
+		{
+			"default": "(no new items)",
+			"localized": "(신규 아이템 없음)"
+		},
+		{
+			"default": "R",
+			"localized": "R"
+		},
+		{
+			"default": "G",
+			"localized": "G"
+		},
+		{
+			"default": "B",
+			"localized": "B"
+		},
+		{
+			"default": "W",
+			"localized": "W"
+		},
+		{
+			"default": "(Inapplicable)",
+			"localized": "(적용 불가)"
+		},
+		{
+			"default": "Toggle",
+			"localized": "전환"
+		},
+		{
+			"default": "Remove",
+			"localized": "제거"
+		},
+		{
+			"default": "{{LEAGUE}} League",
+			"localized": "{{LEAGUE}} 리그"
+		},
+		{
+			"default": "Could not initiate Xsolla payment, please try again later or contact support@grindinggear.com",
+			"localized": "Xsolla 결제를 초기화할 수 없습니다. 나중에 다시 시도하거나 support@grindinggear.com으로 문의하십시오."
+		},
+		{
+			"default": "Failed to create Xsolla transaction, please try again later or contact support@grindinggear.com",
+			"localized": "Xsolla 거래를 생성화할 수 없습니다. 나중에 다시 시도하거나 support@grindinggear.com으로 문의하십시오."
+		},
+		{
+			"default": "Follow {NAME}",
+			"localized": "{NAME} 님 팔로우 취소"
+		},
+		{
+			"default": "Unfollow {NAME}",
+			"localized": "{NAME} 님 팔로우"
+		},
+		{
+			"default": "Sort Items By:",
+			"localized": "아이템 분류:"
+		},
+		{
+			"default": "Categories",
+			"localized": "유형"
+		},
+		{
+			"default": "Theme",
+			"localized": "주제"
+		},
+		{
+			"default": "This tree is in read only mode",
+			"localized": "읽기 전용 모드입니다"
+		},
+		{
+			"default": "Class Filter",
+			"localized": "직업 필터"
+		},
+		{
+			"default": "This stat is already being used in this filter",
+			"localized": "이 필터에서 이미 사용하고 있는 능력치입니다"
+		},
+		{
+			"default": "min",
+			"localized": "최소"
+		},
+		{
+			"default": "max",
+			"localized": "최대"
+		},
+		{
+			"default": "weight",
+			"localized": "무게"
+		},
+		{
+			"default": "Items I Want",
+			"localized": "원하는 아이템"
+		},
+		{
+			"default": "Items I Have",
+			"localized": "보유한 아이템"
+		},
+		{
+			"default": "Add Want Entry",
+			"localized": "원하는 아이템 항목 추가"
+		},
+		{
+			"default": "Add Have Entry",
+			"localized": "보유한 아이템 항목 추가"
+		},
+		{
+			"default": "Swap Want/Have",
+			"localized": "원하는 아이템/보유한 아이템 바꾸기"
+		},
+		{
+			"default": "My {{LEAGUE}} Offers",
+			"localized": "내 {{LEAGUE}} 항목"
+		},
+		{
+			"default": "Add Stat Group",
+			"localized": "능력치 그룹 추가"
+		},
+		{
+			"default": "Item not found",
+			"localized": "아이템을 찾지 못했습니다"
+		},
+		{
+			"default": "Load More",
+			"localized": "더 불러오기"
+		},
+		{
+			"default": "Activate Live Search",
+			"localized": "라이브 검색 활성화"
+		},
+		{
+			"default": "Deactivate Live Search",
+			"localized": "라이브 검색 비활성화"
+		},
+		{
+			"default": "Show Filters",
+			"localized": "필터 보기"
+		},
+		{
+			"default": "Hide Filters",
+			"localized": "필터 숨기기"
+		},
+		{
+			"default": "Clear",
+			"localized": "지우기"
+		},
+		{
+			"default": "Account Settings",
+			"localized": "계정 설정"
+		},
+		{
+			"default": "Online Status",
+			"localized": "온라인 상태"
+		},
+		{
+			"default": "Search Settings",
+			"localized": "검색 설정"
+		},
+		{
+			"default": "Treat DND Players as Offline",
+			"localized": "다른 용무 중 플레이어를 오프라인으로 처리"
+		},
+		{
+			"default": "Treat AFK Players as Offline",
+			"localized": "자리비움 플레이어를 오프라인으로 처리"
+		},
+		{
+			"default": "Track Online Status for Live Search",
+			"localized": "라이브 검색을 위해 온라인 상태 추적"
+		},
+		{
+			"default": "Notification Sound",
+			"localized": "알림 소리"
+		},
+		{
+			"default": "Notification Volume",
+			"localized": "알림 음량"
+		},
+		{
+			"default": "Cache Settings",
+			"localized": "캐시 설정"
+		},
+		{
+			"default": "Cached Data",
+			"localized": "캐시된 데이터"
+		},
+		{
+			"default": "Clear Cached Data",
+			"localized": "캐시된 데이터 지우기"
+		},
+		{
+			"default": "Ignore List",
+			"localized": "차단 목록"
+		},
+		{
+			"default": "Remove All",
+			"localized": "모두 제거"
+		},
+		{
+			"default": "Clear Filter Group",
+			"localized": "필터 그룹 지우기"
+		},
+		{
+			"default": "at max Quality",
+			"localized": "최대 퀄리티"
+		},
+		{
+			"default": "listed",
+			"localized": "등록 완료"
+		},
+		{
+			"default": "Item is outdated",
+			"localized": "아이템 만료"
+		},
+		{
+			"default": "AFK",
+			"localized": "자리비움"
+		},
+		{
+			"default": "DND",
+			"localized": "다른 용무 중"
+		},
+		{
+			"default": "Unavailable Stat",
+			"localized": "사용할 수 없는 능력치"
+		},
+		{
+			"default": "Failed to fetch the next set of trade items.",
+			"localized": "다음 거래 아이템 세트를 가져올 수 없습니다."
+		},
+		{
+			"default": "Could not refresh trade item.",
+			"localized": "거래 아이템을 새로 고칠 수 없습니다."
+		},
+		{
+			"default": "Search form cleared!",
+			"localized": "검색 양식을 지웠습니다!"
+		},
+		{
+			"default": "Currency",
+			"localized": "화폐"
+		},
+		{
+			"default": "Splinters",
+			"localized": "파편"
+		},
+		{
+			"default": "Shards",
+			"localized": "조각"
+		},
+		{
+			"default": "Shards & Splinters",
+			"localized": "조각 및 파편"
+		},
+		{
+			"default": "Fragments",
+			"localized": "조각"
+		},
+		{
+			"default": "Fragment Sets",
+			"localized": "조각 세트"
+		},
+		{
+			"default": "Fragments & Sets",
+			"localized": "조각 및 세트"
+		},
+		{
+			"default": "Misc",
+			"localized": "기타"
+		},
+		{
+			"default": "Incubators",
+			"localized": "인큐베이터"
+		},
+		{
+			"default": "Nets",
+			"localized": "그물"
+		},
+		{
+			"default": "Vials",
+			"localized": "시약"
+		},
+		{
+			"default": "Delve Resonators",
+			"localized": "탐광 공명기"
+		},
+		{
+			"default": "Delve Fossils",
+			"localized": "탐광 화석"
+		},
+		{
+			"default": "Leaguestones",
+			"localized": "리그스톤"
+		},
+		{
+			"default": "Essences",
+			"localized": "에센스"
+		},
+		{
+			"default": "Cards",
+			"localized": "카드"
+		},
+		{
+			"default": "Maps",
+			"localized": "지도"
+		},
+		{
+			"default": "Shaped Maps",
+			"localized": "쉐이퍼 지도"
+		},
+		{
+			"default": "Elder Maps",
+			"localized": "엘더 지도"
+		},
+		{
+			"default": "Blighted Maps",
+			"localized": "역병 걸린 지도"
+		},
+		{
+			"default": "Divination Cards",
+			"localized": "점술 카드"
+		},
+		{
+			"default": "Invalid Currency",
+			"localized": "유효하지 않은 화폐"
+		},
+		{
+			"default": "Showing 1 result",
+			"localized": "검색 결과 1개 표시"
+		},
+		{
+			"default": "Showing {i} results",
+			"localized": "검색 결과 {i}개 표시"
+		},
+		{
+			"default": "{i} matched",
+			"localized": "{i} 매치됨"
+		},
+		{
+			"default": "Your live search has been disabled after 2 hours of inactivity.",
+			"localized": "2시간 동안 활동이 없어 라이브 검색이 비활성화되었습니다."
+		},
+		{
+			"default": "Your live search is being rate-limited.",
+			"localized": "라이브 검색의 평가가 제한되고 있습니다."
+		},
+		{
+			"default": "Live Search: ",
+			"localized": "라이브 검색: "
+		},
+		{
+			"default": "Search",
+			"localized": "검색"
+		},
+		{
+			"default": "Custom: {sound}",
+			"localized": "사용자 지정: {sound}"
+		},
+		{
+			"default": "Custom...",
+			"localized": "사용자 지정..."
+		},
+		{
+			"default": "The selected file was not recognized as an audio file",
+			"localized": "선택한 파일이 오디오 파일로 인식되지 않습니다."
+		},
+		{
+			"default": "An error occurred while loading the selected sound",
+			"localized": "선택한 음성을 불러오는 동안 오류가 발생했습니다"
+		},
+		{
+			"default": "Account status updated!",
+			"localized": "계정 상태가 업데이트되었습니다!"
+		},
+		{
+			"default": "Failed to update account status.",
+			"localized": "계정 상태를 업데이트하지 못했습니다"
+		},
+		{
+			"default": "Reloading Page...",
+			"localized": "페이지를 다시 불러오는 중..."
+		},
+		{
+			"default": "Failed to clear ignore list.",
+			"localized": "무시 목록을 지울 수 없습니다."
+		},
+		{
+			"default": "Failed to retrieve ignore list.",
+			"localized": "무시 목록을 불러올 수 없습니다."
+		},
+		{
+			"default": "just now",
+			"localized": "방금"
+		},
+		{
+			"default": "Search Listed Items",
+			"localized": "등록된 아이템 검색"
+		},
+		{
+			"default": "Item Exchange",
+			"localized": "아이템 교환"
+		},
+		{
+			"default": "Gong",
+			"localized": "징"
+		},
+		{
+			"default": "Weighted Sum",
+			"localized": "가중 합계"
+		},
+		{
+			"default": "Item Category",
+			"localized": "아이템 유형"
+		},
+		{
+			"default": "Any Weapon",
+			"localized": "모든 무기"
+		},
+		{
+			"default": "Any Dagger",
+			"localized": "임의의 단검"
+		},
+		{
+			"default": "Any Staff",
+			"localized": "임의의 지팡이"
+		},
+		{
+			"default": "Any Armour",
+			"localized": "모든 방어구"
+		},
+		{
+			"default": "Any Accessory",
+			"localized": "모든 액세서리"
+		},
+		{
+			"default": "Any Non-Unique",
+			"localized": "모든 비고유"
+		},
+		{
+			"default": "No elements found. Consider changing the search query.",
+			"localized": "검색 항목을 찾을 수 없습니다. 검색 쿼리를 변경해 보십시오."
+		},
+		{
+			"default": "No matches.",
+			"localized": "검색 결과가 없습니다."
+		},
+		{
+			"default": "{i} selected",
+			"localized": "{i} 선택됨"
+		},
+		{
+			"default": "Check out with Credit/Debit Card.",
+			"localized": "신용/직불 카드로 결제합니다."
+		},
+		{
+			"default": "Listed Item Searching",
+			"localized": "등록된 아이템을 검색하는 중"
+		},
+		{
+			"default": "This website allows you to search through items listed for sale in Shop Forums as well as those listed using Public Premium Stash Tabs in-game.",
+			"localized": "이 웹사이트에서 상점 게시판에 등록한 아이템과 게임 내 공개 프리미엄 보관함 탭에 등록한 아이템을 검색할 수 있습니다."
+		},
+		{
+			"default": "You can search by an item\\'s name or an item\\'s base type using the \"Search Items\" field.",
+			"localized": "\"아이템 검색\" 필드에서 이름 또는 기본 유형으로 아이템을 검색할 수 있습니다."
+		},
+		{
+			"default": "Players will have their Online/Offline status updated every minute.",
+			"localized": "플레이어의 온라인/오프라인 상태는 분 단위로 업데이트됩니다."
+		},
+		{
+			"default": "While searching is easy, you will still have to contact the player selling the item in order to complete the trade.",
+			"localized": "검색은 쉽지만 실제로 거래하려면 아이템을 판매하는 플레이어에게 직접 연락해야 합니다."
+		},
+		{
+			"default": "We provide an easy copy-pasteable message to whisper the player with, as well as a link to PM the player on the main Path of Exile website.",
+			"localized": "다른 플레이어에게 쉽게 귓속말을 보낼 수 있도록 복사 및 붙여넣기가 가능한 메시지를 제공하며 공식 패스 오브 엑자일 웹사이트에서 해당 플레이어에게 비공개 메시지를 보낼 수 있는 링크를 제공합니다."
+		},
+		{
+			"default": "Please note: The whisper message will be translated into the seller\\'s local language.",
+			"localized": "판매자에게 보내는 귓속말은 판매자가 사용하는 언어로 번역됩니다. 참고하시기 바랍니다."
+		},
+		{
+			"default": "If for any reason you no longer wish to view a certain player\\'s listings, you can use the \"Ignore Player\" button to remove their listings from your search results.",
+			"localized": "어떤 이유로든 특정한 플레이어가 등록한 물건을 보지 않으려면 \"플레이어 차단\" 버튼을 사용해 검색 결과에서 해당 플레이어가 올린 물건을 제거할 수 있습니다."
+		},
+		{
+			"default": "Please note: This feature requires you to be logged in with your Path of Exile account. Additionally, this ignore list is not tied to your in-game ignore list in any way, and may be managed in the settings panel right here on the trade site.",
+			"localized": "이 기능을 사용하려면 패스 오브 엑자일 계정으로 로그인해야 합니다. 또한 이 차단 목록은 게임 내 차단 목록과 아무런 관련이 없으며 거래 사이트에 있는 설정 패널에서 관리합니다."
+		},
+		{
+			"default": "We also allow you to perform a \"Live Search\" where you will be notified when a new item matching your search criteria is listed or updated.",
+			"localized": "또한 플레이어의 검색 조건에 맞는 아이템이 업데이트되거나 새로 등록되면 이를 알려주는 \"라이브 검색\"을 지원합니다."
+		},
+		{
+			"default": "Please note: The search only runs while you keep your browser tab or window open (in the background is okay).",
+			"localized": "검색 기능은 브라우저 탭 또는 창을 열어 놓은 상태에서만 작동합니다. 백그라운드에서 실행하는 것은 상관없습니다."
+		},
+		{
+			"default": "Settings",
+			"localized": "설정"
+		},
+		{
+			"default": "About",
+			"localized": "정보"
+		},
+		{
+			"default": "When logged into this site, you may also choose how your in-game status is used for trade-related searches.",
+			"localized": "이 사이트에 로그인할 때 게임 내 상태를 거래 관련 검색에 사용할지 선택할 수 있습니다."
+		},
+		{
+			"default": "By default, your status will show for items you have listed in the league that you are currently playing in.",
+			"localized": "기본적으로 현재 플레이하는 리그에 아이템을 올리면 플레이어의 상태가 표시됩니다."
+		},
+		{
+			"default": "You may opt to show your status regardless of what league you are playing if you so choose.",
+			"localized": "원한다면 플레이하는 리그와 상관없이 플레이어의 상태를 표시하지 않도록 할 수 있습니다."
+		},
+		{
+			"default": "Please note: Players using the Do Not Disturb feature in-game will be treated as Offline for the purposes of this site.",
+			"localized": "게임에서 다른 용무 중으로 표시된 플레이어는 이 사이트에서 오프라인으로 표시됩니다."
+		},
+		{
+			"default": "Bulk Item Exchange",
+			"localized": "아이템 대량 검색"
+		},
+		{
+			"default": "Certain items may be listed for bulk sale (listed below).",
+			"localized": "특정 아이템은 대량 판매로 등록됩니다. 이러한 아이템은 아래 목록에 나와 있습니다."
+		},
+		{
+			"default": "Your eligible items will be grouped together under one price, with the total amount of items presented as \"stock\".",
+			"localized": "해당하는 아이템은 한데 묶여 같은 가격으로 표시되며 보유한 아이템 수량은 \"재고\"로 표시됩니다."
+		},
+		{
+			"default": "In order to list exchange entries, either in-game or on the forum, use the ratio format on the item you wish to offer for the type of item you would like in return.",
+			"localized": "게임 내 또는 게시판에서 교환 거래를 등록하려면 주려는 아이템과 받으려는 아이템 간의 비율 형식을 사용하십시오."
+		},
+		{
+			"default": "For example:",
+			"localized": "예:"
+		},
+		{
+			"default": "will list your intent to buy 3 Orbs of Fusing for 1 Chaos Orb each.",
+			"localized": "\"카오스 오브 1개당 연결의 오브 3개로 교환해 드립니다\""
+		},
+		{
+			"default": "Alternatively:",
+			"localized": "다른 예:"
+		},
+		{
+			"default": "will list your intent to buy 2 Orbs of Chaos for 35 Chromatic Orbs each. This is technically equivalent to selling 17.5 Chromatic Orbs per Chaos Orb, however pricing this way is more appropriate for bulk sets of items.",
+			"localized": "\"카오스 오브 2개당 색채의 오브 35개로 교환해 드립니다\" 이 경우 사실 카오스 오브 1개당 색채의 오브 17.5개로 교환하는 것이지만 대량 거래에는 이런 식으로 가격을 올리는 것이 적절합니다."
+		},
+		{
+			"default": "Please note: Stock includes all of the items of that type that are publicly listed (priced or not).",
+			"localized": "재고는 공개적으로 올린 모든 같은 유형(가격이 있든 없든)의 아이템을 포함합니다."
+		},
+		{
+			"default": "Item Tags",
+			"localized": "아이템 태그"
+		},
+		{
+			"default": "is worth",
+			"localized": "가치 여부"
+		},
+		{
+			"default": "what you get",
+			"localized": "얻는 것"
+		},
+		{
+			"default": "what you pay",
+			"localized": "주는 것"
+		},
+		{
+			"default": "Stock",
+			"localized": "재고"
+		},
+		{
+			"default": "Contact...",
+			"localized": "연락처..."
+		},
+		{
+			"default": "Not enough stock!",
+			"localized": "재고가 부족합니다!"
+		},
+		{
+			"default": "pseudo",
+			"localized": "유사"
+		},
+		{
+			"default": "explicit",
+			"localized": "무작위"
+		},
+		{
+			"default": "implicit",
+			"localized": "고정"
+		},
+		{
+			"default": "enchant",
+			"localized": "인챈트"
+		},
+		{
+			"default": "crafted",
+			"localized": "제작된"
+		},
+		{
+			"default": "monster",
+			"localized": "몬스터"
+		},
+		{
+			"default": "Mirrored",
+			"localized": "복제된"
+		},
+		{
+			"default": "Listed",
+			"localized": "등록 완료"
+		},
+		{
+			"default": "Any Time",
+			"localized": "언제든"
+		},
+		{
+			"default": "Up to a Day Ago",
+			"localized": "1일 전까지"
+		},
+		{
+			"default": "Up to 3 Days Ago",
+			"localized": "3일 전까지"
+		},
+		{
+			"default": "Up to a Week Ago",
+			"localized": "1주일 전까지"
+		},
+		{
+			"default": "Up to 2 Weeks Ago",
+			"localized": "2주일 전까지"
+		},
+		{
+			"default": "Up to 1 Month Ago",
+			"localized": "1달 전까지"
+		},
+		{
+			"default": "Up to 2 Months Ago",
+			"localized": "2달 전까지"
+		},
+		{
+			"default": "{RANGE1} to {RANGE2}",
+			"localized": "{RANGE1}~{RANGE2}"
+		},
+		{
+			"default": "Item stats have been added to your stat filters.",
+			"localized": "능력치 필터에 아이템 능력치가 추가되었습니다."
+		},
+		{
+			"default": "Whisper message copied.",
+			"localized": "귓속말 메시지를 복사했습니다."
+		},
+		{
+			"default": "Item text copied.",
+			"localized": "아이템 텍스트를 복사했습니다."
+		},
+		{
+			"default": "Last Client Language (Default)",
+			"localized": "이전 클라이언트 언어 (기본)"
+		},
+		{
+			"default": "English",
+			"localized": "영어"
+		},
+		{
+			"default": "Brazilian Portuguese",
+			"localized": "브라질 포르투갈어"
+		},
+		{
+			"default": "Russian",
+			"localized": "러시아어"
+		},
+		{
+			"default": "Thai",
+			"localized": "타이어"
+		},
+		{
+			"default": "German",
+			"localized": "독일어"
+		},
+		{
+			"default": "French",
+			"localized": "프랑스어"
+		},
+		{
+			"default": "Spanish",
+			"localized": "스페인어"
+		},
+		{
+			"default": "Korean",
+			"localized": "한국어"
+		},
+		{
+			"default": "Custom Search",
+			"localized": "사용자 지정 검색"
+		},
+		{
+			"default": "Seller Filters",
+			"localized": "판매자 필터"
+		},
+		{
+			"default": "Seller Account",
+			"localized": "판매자 계정"
+		},
+		{
+			"default": "Minimum Stock",
+			"localized": "최소 재고"
+		},
+		{
+			"default": "Depth",
+			"localized": "광산 깊이"
+		},
+		{
+			"default": "Depth (Solo)",
+			"localized": "광산 깊이 (솔로)"
+		},
+		{
+			"default": "Log in Required",
+			"localized": "로그인 필요"
+		},
+		{
+			"default": "Any Gem",
+			"localized": "모든 젬"
+		},
+		{
+			"default": "Skill Gem",
+			"localized": "스킬 젬"
+		},
+		{
+			"default": "Support Gem",
+			"localized": "보조 젬"
+		},
+		{
+			"default": "Any Jewel",
+			"localized": "모든 주얼"
+		},
+		{
+			"default": "Any Currency",
+			"localized": "모든 화폐"
+		},
+		{
+			"default": "Unique Fragment",
+			"localized": "고유 조각"
+		},
+		{
+			"default": "Resonator",
+			"localized": "공명기"
+		},
+		{
+			"default": "Fossil",
+			"localized": "화석"
+		},
+		{
+			"default": "Delve Sockets",
+			"localized": "탐광 홈"
+		},
+		{
+			"default": "Whisper Language",
+			"localized": "귓속말 언어"
+		},
+		{
+			"default": "Veiled Prefix",
+			"localized": "장막 접두어"
+		},
+		{
+			"default": "Veiled Suffix",
+			"localized": "장막 접미어"
+		},
+		{
+			"default": "Veiled",
+			"localized": "장막"
+		},
+		{
+			"default": "Betrayal",
+			"localized": "배신"
+		},
+		{
+			"default": "Scarabs",
+			"localized": "갑충석"
+		},
+		{
+			"default": "Stash History",
+			"localized": "보관함 기록"
+		},
+		{
+			"default": "Date",
+			"localized": "날짜"
+		},
+		{
+			"default": "Action",
+			"localized": "행동"
+		},
+		{
+			"default": "Item",
+			"localized": "아이템"
+		},
+		{
+			"default": "added",
+			"localized": "추가됨"
+		},
+		{
+			"default": "modified",
+			"localized": "수정됨"
+		},
+		{
+			"default": "removed",
+			"localized": "제거됨"
+		},
+		{
+			"default": "Next Page",
+			"localized": "다음 페이지"
+		},
+		{
+			"default": "Today",
+			"localized": "오늘"
+		},
+		{
+			"default": "fractured",
+			"localized": "분열됨"
+		},
+		{
+			"default": "Synthesis",
+			"localized": "챌린지"
+		},
+		{
+			"default": "Fractured Item",
+			"localized": "분열된 아이템"
+		},
+		{
+			"default": "Synthesised Item",
+			"localized": "결합된 아이템"
+		},
+		{
+			"default": "Can Fulfil Trade",
+			"localized": "거래 처리 가능"
+		},
+		{
+			"default": "Forever",
+			"localized": "기한 없음"
+		},
+		{
+			"default": "Locale",
+			"localized": "로캘"
+		},
+		{
+			"default": "Key",
+			"localized": "쿠폰 번호"
+		},
+		{
+			"default": "Show All",
+			"localized": "모두 표시"
+		},
+		{
+			"default": "Active Settings",
+			"localized": "활성 설정"
+		},
+		{
+			"default": "Enabled",
+			"localized": "활성화"
+		},
+		{
+			"default": "Disabled",
+			"localized": "비활성화"
+		},
+		{
+			"default": "Image/Source",
+			"localized": "이미지/소스"
+		},
+		{
+			"default": "Url",
+			"localized": "URL"
+		},
+		{
+			"default": "Title",
+			"localized": "제목"
+		},
+		{
+			"default": "Start Time",
+			"localized": "시작 시간"
+		},
+		{
+			"default": "Preview",
+			"localized": "미리보기"
+		},
+		{
+			"default": "Banner Settings",
+			"localized": "배너 설정"
+		},
+		{
+			"default": "New / Edit Banner",
+			"localized": "배너 새로 만들기/편집"
+		},
+		{
+			"default": "Messages have been sent successfully",
+			"localized": "메시지 발송 완료"
+		},
+		{
+			"default": "Failed to send messages",
+			"localized": "메시지 발송 실패"
+		},
+		{
+			"default": "Add Recipients (ID)",
+			"localized": "받는 사람 (ID) 추가"
+		},
+		{
+			"default": "Subject",
+			"localized": "주제"
+		},
+		{
+			"default": "Content",
+			"localized": "내용"
+		},
+		{
+			"default": "Incubating {ITEM}",
+			"localized": "{ITEM} 인큐베이팅 "
+		},
+		{
+			"default": "Level {LEVEL}+ Monster Kills",
+			"localized": "{LEVEL}레벨 + 몬스터 처치"
+		},
+		{
+			"default": "Failed to load the address.",
+			"localized": "주소를 불러올 수 없습니다."
+		},
+		{
+			"default": "Would you like to proceed with the purchase?",
+			"localized": "해당 상품을 구매하시겠습니까?"
+		},
+		{
+			"default": "Purchase Successful",
+			"localized": "구매 완료"
+		},
+		{
+			"default": "Login Required",
+			"localized": "로그인 필요"
+		},
+		{
+			"default": "Account Creation Required",
+			"localized": "계정 생성이 필요합니다."
+		},
+		{
+			"default": "Insufficient Balance",
+			"localized": "잔액 부족"
+		},
+		{
+			"default": "Top Up",
+			"localized": "충전하기"
+		},
+		{
+			"default": "Country code",
+			"localized": "국가 코드"
+		},
+		{
+			"default": "Country code 3",
+			"localized": "국가 코드 3"
+		},
+		{
+			"default": "Country name",
+			"localized": "국가 이름"
+		},
+		{
+			"default": "Region",
+			"localized": "지역"
+		},
+		{
+			"default": "Postal code",
+			"localized": "우편번호"
+		},
+		{
+			"default": "Latitude",
+			"localized": "위도"
+		},
+		{
+			"default": "Longitude",
+			"localized": "경도"
+		},
+		{
+			"default": "Dma code",
+			"localized": "DMA 코드"
+		},
+		{
+			"default": "Area code",
+			"localized": "지역 코드"
+		},
+		{
+			"default": "ISP",
+			"localized": "ISP"
+		},
+		{
+			"default": "Organization",
+			"localized": "조직"
+		},
+		{
+			"default": "(Pending)",
+			"localized": "(보류 중)"
+		},
+		{
+			"default": "Paid (Completion Pending)",
+			"localized": "지불 완료(완료 보류 중)"
+		},
+		{
+			"default": "Unclean Merge",
+			"localized": "완벽하지 않은 병합"
+		},
+		{
+			"default": "Out Of Stock",
+			"localized": "품절"
+		},
+		{
+			"default": "Resend",
+			"localized": "재전송"
+		},
+		{
+			"default": "Backend Message: ",
+			"localized": "백엔드 메시지: "
+		},
+		{
+			"default": "Invalid character name.",
+			"localized": "유효하지 않은 캐릭터 이름입니다."
+		},
+		{
+			"default": "Submit an account name to search.",
+			"localized": "검색하려면 계정 이름을 제출하십시오."
+		},
+		{
+			"default": "An error occurred.",
+			"localized": "오류가 발생했습니다."
+		},
+		{
+			"default": "No results found.",
+			"localized": "결과를 찾지 못했습니다."
+		},
+		{
+			"default": "Showing ",
+			"localized": "결과 표시 "
+		},
+		{
+			"default": " of ",
+			"localized": " / "
+		},
+		{
+			"default": " results",
+			"localized": " 결과"
+		},
+		{
+			"default": "Draft ",
+			"localized": "드래프트 "
+		},
+		{
+			"default": "Thread Bump removed",
+			"localized": "게시글 추천 제거 완료"
+		},
+		{
+			"default": "Thread Bumped",
+			"localized": "게시글 추천 완료"
+		},
+		{
+			"default": "Failed to Bump Thread",
+			"localized": "게시글 추천 실패"
+		},
+		{
+			"default": "No new posts",
+			"localized": "새 글 없음"
+		},
+		{
+			"default": "days",
+			"localized": "일"
+		},
+		{
+			"default": "day",
+			"localized": "일"
+		},
+		{
+			"default": "Cannot be traded or modified",
+			"localized": "거래 및 속성 부여 개조 불가"
+		},
+		{
+			"default": "You must be logged in to use the Live Search feature.",
+			"localized": "라이브 검색 기능을 사용하려면 로그인해야 합니다."
+		},
+		{
+			"default": "New live search results!",
+			"localized": "새로운 라이브 검색 결과가 있습니다!"
+		},
+		{
+			"default": "1 new item has matched your search.",
+			"localized": "검색 조건에 맞는 새로운 아이템 1개가 있습니다."
+		},
+		{
+			"default": "{i} new items have matched your search.",
+			"localized": "검색 조건에 맞는 새로운 아이템 {i}개가 있습니다."
+		},
+		{
+			"default": "Failed to fetch account settings.",
+			"localized": "계정 설정 정보를 가져오지 못했습니다."
+		},
+		{
+			"default": "Account settings updated!",
+			"localized": "계정 설정이 변경되었습니다!"
+		},
+		{
+			"default": "Failed to update account settings.",
+			"localized": "계정 설정을 변경하지 못했습니다."
+		},
+		{
+			"default": "Please select a valid league to search in.",
+			"localized": "검색할 유효한 리그를 선택하십시오."
+		},
+		{
+			"default": "limit reached!",
+			"localized": "제한에 도달했습니다!"
+		},
+		{
+			"default": "max: {MAX}",
+			"localized": "최대: {MAX}개"
+		},
+		{
+			"default": "point",
+			"localized": "포인트"
+		},
+		{
+			"default": "Accept transaction?",
+			"localized": "거래를 수락하시겠습니까?"
+		},
+		{
+			"default": "Reject transaction?",
+			"localized": "거래를 거부하시겠습니까?"
+		},
+		{
+			"default": "Cancel transaction?",
+			"localized": "거래를 취소하시겠습니까?"
+		},
+		{
+			"default": "Pending",
+			"localized": "보류 중"
+		},
+		{
+			"default": "Redo",
+			"localized": "다시 실행"
+		},
+		{
+			"default": "Dashboard",
+			"localized": "대시보드"
+		},
+		{
+			"default": "Admin2",
+			"localized": "관리자2"
+		},
+		{
+			"default": "Account Search",
+			"localized": "계정 검색"
+		},
+		{
+			"default": "View Characters",
+			"localized": "캐릭터 보기"
+		},
+		{
+			"default": "Character Search",
+			"localized": "캐릭터 검색"
+		},
+		{
+			"default": "Saved!",
+			"localized": "저장 완료!"
+		},
+		{
+			"default": "Failed to save.",
+			"localized": "저장하지 못했습니다."
+		},
+		{
+			"default": "Purchase",
+			"localized": "구매"
+		},
+		{
+			"default": "Hide",
+			"localized": "숨기기"
+		},
+		{
+			"default": "Show",
+			"localized": "표시"
+		},
+		{
+			"default": "Exilecon Ticket List",
+			"localized": "엑자일콘 티켓 목록"
+		},
+		{
+			"default": "Reset Selected Tickets",
+			"localized": "선택한 티켓 초기화"
+		},
+		{
+			"default": "Account ID",
+			"localized": "계정 ID"
+		},
+		{
+			"default": "Account Email",
+			"localized": "계정 이메일"
+		},
+		{
+			"default": "Ticket Name",
+			"localized": "티켓 이름"
+		},
+		{
+			"default": "Ticket Email",
+			"localized": "티켓 이메일"
+		},
+		{
+			"default": "Ticket ID",
+			"localized": "티켓 ID"
+		},
+		{
+			"default": "Ticket Type",
+			"localized": "티켓 유형"
+		},
+		{
+			"default": "Rune Dagger",
+			"localized": "룬 단검"
+		},
+		{
+			"default": "Warstaff",
+			"localized": "전쟁지팡이"
+		},
+		{
+			"default": "Incubator",
+			"localized": "인큐베이터"
+		},
+		{
+			"default": "Oils",
+			"localized": "성유"
+		},
+		{
+			"default": "Guidebook",
+			"localized": "가이드북"
+		},
+		{
+			"default": "Are you sure you want to delete your {{NAME}} item filter?",
+			"localized": "{{NAME}} 아이템 필터를 정말 삭제하시겠습니까?"
+		},
+		{
+			"default": "Awakened Support Gem",
+			"localized": "각성한 보조 젬"
+		},
+		{
+			"default": "Metamorph Sample",
+			"localized": "변형 샘플"
+		},
+		{
+			"default": "Shaper Influence",
+			"localized": "쉐이퍼 영향"
+		},
+		{
+			"default": "Elder Influence",
+			"localized": "엘더 영향"
+		},
+		{
+			"default": "Crusader Influence",
+			"localized": "십자군 영향"
+		},
+		{
+			"default": "Redeemer Influence",
+			"localized": "대속자 영향"
+		},
+		{
+			"default": "Hunter Influence",
+			"localized": "사냥꾼 영향"
+		},
+		{
+			"default": "Warlord Influence",
+			"localized": "전쟁군주 영향"
+		},
+		{
+			"default": "Map Fragment",
+			"localized": "지도 조각"
+		},
+		{
+			"default": "Maven\\'s Invitation",
+			"localized": "메이븐의 초대"
+		},
+		{
+			"default": "Scarab",
+			"localized": "갑충석"
+		},
+		{
+			"default": "Watchstone",
+			"localized": "감시자의 돌"
+		},
+		{
+			"default": "Live Search error",
+			"localized": "라이브 검색 오류"
+		},
+		{
+			"default": "An error occurred while connecting",
+			"localized": "접속 중 오류 발생"
+		},
+		{
+			"default": "Live Search retry limit exceeded",
+			"localized": "라이브 검색 재시도 제한 시간 초과"
+		},
+		{
+			"default": "Please refresh the page and try again",
+			"localized": "페이지를 새로고침한 후 다시 시도하십시오"
+		},
+		{
+			"default": "Server is restarting",
+			"localized": "서버를 재시작합니다"
+		},
+		{
+			"default": "Disconnected from server",
+			"localized": "서버와의 연결이 끊겼습니다"
+		},
+		{
+			"default": "Retrying connection in {{TIMEOUT}} seconds...",
+			"localized": "연결 재시도까지: {{TIMEOUT}}초..."
+		},
+		{
+			"default": "Reconnecting...",
+			"localized": "재시도 중..."
+		},
+		{
+			"default": "Disconnected",
+			"localized": "연결 끊김"
+		},
+		{
+			"default": "Authenticating...",
+			"localized": "확인 중..."
+		},
+		{
+			"default": "Cluster Jewel",
+			"localized": "스킬 군 주얼"
+		},
+		{
+			"default": "This private league starts at {START_TIME}.",
+			"localized": "비공개 리그는 {START_TIME}에 시작합니다."
+		},
+		{
+			"default": "The League will start when it is created.",
+			"localized": "생성이 완료되면 리그가 시작됩니다."
+		},
+		{
+			"default": "after league start, are you sure?",
+			"localized": "리그 시작 후입니다. 계속하시겠습니까?"
+		},
+		{
+			"default": "from now, are you sure?",
+			"localized": "지금부터입니다. 계속하시겠습니까?"
+		},
+		{
+			"default": "Now",
+			"localized": "지금"
+		},
+		{
+			"default": "Hide Expired Links",
+			"localized": "만료된 링크 숨기기"
+		},
+		{
+			"default": "Show Expired Links",
+			"localized": "만료된 링크 표시"
+		},
+		{
+			"default": "No members.",
+			"localized": "회원 없음"
+		},
+		{
+			"default": "Generate Invitation Link",
+			"localized": "초대 링크 생성"
+		},
+		{
+			"default": "Copy",
+			"localized": "복사"
+		},
+		{
+			"default": "Generated By:",
+			"localized": "생성자:"
+		},
+		{
+			"default": "Expiration Time:",
+			"localized": "만료 시간:"
+		},
+		{
+			"default": "Members:",
+			"localized": "회원:"
+		},
+		{
+			"default": "Invite Account",
+			"localized": "계정 초대"
+		},
+		{
+			"default": "Bulk Invite By Name (Comma separated eg/ AccountName1, AccountName2, AccountName3)",
+			"localized": "이름으로 대량 초대(쉼표로 구분, 예: AccountName1, AccountName2, AccountName3)"
+		},
+		{
+			"default": "Bulk Invite By QQ Number (Comma separated eg/ 111, 222, 333)",
+			"localized": "QQ 번호로 대량 초대(쉼표로 구분, 예: 111, 222, 333)"
+		},
+		{
+			"default": "Stash",
+			"localized": "보관함"
+		},
+		{
+			"default": "Inventory",
+			"localized": "소지품"
+		},
+		{
+			"default": "Start Time can not be in the past.",
+			"localized": "과거 시간은 시작 시간으로 설정할 수 없습니다."
+		},
+		{
+			"default": "Promote",
+			"localized": "승급"
+		},
+		{
+			"default": "Make Owner",
+			"localized": "소유자 생성"
+		},
+		{
+			"default": "Role",
+			"localized": "역할"
+		},
+		{
+			"default": "Update Members",
+			"localized": "회원 업데이트"
+		},
+		{
+			"default": "Guild Stash",
+			"localized": "길드 보관함"
+		},
+		{
+			"default": "Are you sure you want to change Owner?",
+			"localized": "소유자를 변경하시겠습니까?"
+		},
+		{
+			"default": "Go to Line",
+			"localized": "관련 줄로 이동"
+		},
+		{
+			"default": "Remaining Daum Cash Balance:",
+			"localized": "게임코인 잔액:"
+		},
+		{
+			"default": "Pulse",
+			"localized": "파동"
+		},
+		{
+			"default": "Piano",
+			"localized": "피아노"
+		},
+		{
+			"default": "Chime",
+			"localized": "차임"
+		},
+		{
+			"default": "Base Jewel",
+			"localized": "기본 주얼"
+		},
+		{
+			"default": "Map Region",
+			"localized": "지도 지역"
+		},
+		{
+			"default": "Haewark Hamlet",
+			"localized": "헤이워크 촌락"
+		},
+		{
+			"default": "Tirn\\'s End",
+			"localized": "티른의 끝자락"
+		},
+		{
+			"default": "Lex Proxima",
+			"localized": "렉스 프록시마"
+		},
+		{
+			"default": "Lex Ejoris",
+			"localized": "렉스 에요리스"
+		},
+		{
+			"default": "New Vastir",
+			"localized": "뉴 바스티르"
+		},
+		{
+			"default": "Glennach Cairns",
+			"localized": "글렌나크 돌무덤"
+		},
+		{
+			"default": "Valdo\\'s Rest",
+			"localized": "발도의 휴식처"
+		},
+		{
+			"default": "Lira Arthain",
+			"localized": "리라 아르타인"
+		},
+		{
+			"default": "Metamorph Brain",
+			"localized": "변형 뇌"
+		},
+		{
+			"default": "Metamorph Eye",
+			"localized": "변형 눈"
+		},
+		{
+			"default": "Metamorph Lung",
+			"localized": "변형 폐"
+		},
+		{
+			"default": "Metamorph Heart",
+			"localized": "변형 심장"
+		},
+		{
+			"default": "Metamorph Liver",
+			"localized": "변형 간"
+		},
+		{
+			"default": "Current",
+			"localized": "현재"
+		},
+		{
+			"default": "Page {PAGE} of {PAGEMAX}",
+			"localized": "{PAGEMAX}의 {PAGE} 페이지 "
+		},
+		{
+			"default": "Base Dagger",
+			"localized": "기본 단검"
+		},
+		{
+			"default": "Base Staff",
+			"localized": "기본 지팡이"
+		},
+		{
+			"default": "Trinket",
+			"localized": "장신구"
+		},
+		{
+			"default": "Any Heist Equipment",
+			"localized": "모든 강탈 장비"
+		},
+		{
+			"default": "Heist Gear",
+			"localized": "강탈 장비"
+		},
+		{
+			"default": "Heist Tool",
+			"localized": "강탈 도구"
+		},
+		{
+			"default": "Heist Cloak",
+			"localized": "강탈 망토"
+		},
+		{
+			"default": "Heist Brooch",
+			"localized": "강탈 브로치"
+		},
+		{
+			"default": "Any Heist Mission",
+			"localized": "모든 강탈 임무"
+		},
+		{
+			"default": "Heist Contract",
+			"localized": "강탈 계약"
+		},
+		{
+			"default": "Heist Blueprint",
+			"localized": "강탈 도면"
+		},
+		{
+			"default": "Heist Filters",
+			"localized": "강탈 필터"
+		},
+		{
+			"default": "Wings Revealed",
+			"localized": "드러낸 부속 건물"
+		},
+		{
+			"default": "Total Wings",
+			"localized": "전체 부속 건물"
+		},
+		{
+			"default": "Escape Routes Revealed",
+			"localized": "드러낸 탈출 경로"
+		},
+		{
+			"default": "Total Escape Routes",
+			"localized": "전체 탈출 경로"
+		},
+		{
+			"default": "Reward Rooms Revealed",
+			"localized": "드러낸 보물 창고"
+		},
+		{
+			"default": "Total Reward Rooms",
+			"localized": "전체 보물 창고"
+		},
+		{
+			"default": "Area Level",
+			"localized": "지역 레벨"
+		},
+		{
+			"default": "Lockpicking Level",
+			"localized": "자물쇠 따기 레벨"
+		},
+		{
+			"default": "Brute Force Level",
+			"localized": "완력 레벨"
+		},
+		{
+			"default": "Perception Level",
+			"localized": "통찰력 레벨"
+		},
+		{
+			"default": "Demolition Level",
+			"localized": "파괴 공작 레벨"
+		},
+		{
+			"default": "Counter-Thaum. Level",
+			"localized": "대-마석학 레벨"
+		},
+		{
+			"default": "Trap Disarmament Level",
+			"localized": "덫 해제 레벨"
+		},
+		{
+			"default": "Agility Level",
+			"localized": "민첩함 레벨"
+		},
+		{
+			"default": "Deception Level",
+			"localized": "기만 레벨"
+		},
+		{
+			"default": "Engineering Level",
+			"localized": "공학 레벨"
+		},
+		{
+			"default": "Gem Quality Type",
+			"localized": "젬 퀄리티 유형"
+		},
+		{
+			"default": "Superior (Default)",
+			"localized": "상급 (기본)"
+		},
+		{
+			"default": "Any Alternate",
+			"localized": "모든 대체"
+		},
+		{
+			"default": "Anomalous",
+			"localized": "기묘한"
+		},
+		{
+			"default": "Divergent",
+			"localized": "상이한"
+		},
+		{
+			"default": "Phantasmal",
+			"localized": "몽환적인"
+		},
+		{
+			"default": "Contract Objective Value",
+			"localized": "계약 목표의 가치"
+		},
+		{
+			"default": "Moderate Value",
+			"localized": "보통 가치"
+		},
+		{
+			"default": "High Value",
+			"localized": "높은 가치"
+		},
+		{
+			"default": "Precious",
+			"localized": "귀중한 가치"
+		},
+		{
+			"default": "Priceless",
+			"localized": "환산 불가능한 가치"
+		},
+		{
+			"default": "Price with Note",
+			"localized": "참고 가격"
+		},
+		{
+			"default": "Price with Note:",
+			"localized": "참고 가격:"
+		},
+		{
+			"default": "Search Bar Layout",
+			"localized": "검색 창 레이아웃"
+		},
+		{
+			"default": "Controls at Bottom (Default)",
+			"localized": "하단 컨트롤 (기본)"
+		},
+		{
+			"default": "Controls on Top and Bottom",
+			"localized": "상단 및 하단 컨트롤"
+		}
+	]
+}
