@@ -172,9 +172,11 @@ TradeGlobals.Set("FirstSearchTriggered", false)
 
 ; get currency ids from currency.poe.trade
 TradeFunc_DoCurrencyRequest("", false, true)
-If (TradeOpts.DownloadDataFiles and not TradeOpts.Debug) {
-	TradeFunc_DownloadDataFiles()
-}
+
+; kyan
+; If (TradeOpts.DownloadDataFiles and not TradeOpts.Debug) {
+; 	TradeFunc_DownloadDataFiles()
+; }
 
 CreateTradeSettingsUI()
 If (_updateConfigWrite) {

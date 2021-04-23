@@ -44,7 +44,7 @@
 
 		Gui, SplashUI:Font, s7 c000000, Verdana
 		Gui, SplashUI:Add, Text, x10 y+5 h20 w450 +Right BackgroundTrans, % "AHK v" . A_AHKVersion
-		Gui, SplashUI:Add, Text, x10 y+5 h20 w450 +Right BackgroundTrans, % "Patched by Kyan (2021-04-20)"
+		Gui, SplashUI:Add, Text, x10 y+5 h20 w450 +Right BackgroundTrans, % "Patched by Kyan (2021-04-23)"
 
 		Gui, SplashUI:+LastFound
 		Gui, SplashUI:Show, Center w470 NA, % this.title
