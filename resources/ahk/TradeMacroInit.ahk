@@ -562,7 +562,7 @@ TradeFunc_ScriptUpdate() {
 CreateTradeSettingsUI() {
 	Global
 
-	Fonts.SetUIFont()
+	Fonts.SetUIFont(8)
 	
 	Scripts := TradeGlobals.Get("SettingsScriptList")
 	TabNames := ""
