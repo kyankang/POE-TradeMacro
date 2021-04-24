@@ -31,7 +31,7 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 	radius			:= ["Radius", "Radius", "", "", "", "", "", "반경"]
 	
 	regex 			:= {}
-	regex.superior		:= ["^Superior(.*)", "(.*)\(hochwertig\)$", "(.*)de qualité$", "(.*)Superior$", "(.*)качества$", "^Superior(.*)", "(.*)Superior$", "(.*)상급$"]
+	regex.superior		:= ["^Superior(.*)", "(.*)\(hochwertig\)$", "(.*)de qualité$", "(.*)Superior$", "(.*)качества$", "^Superior(.*)", "(.*)Superior$", "^상급(.*)"]
 	regex.map			:= ["(.*)Map", "Karte.*'(.*)'", "Carte:(.*)","Mapa:(.*)", "Карта(.*)", "(.*)Map", "Mapa de(.*)", "(.*)지도"]
 	
 	regex.magicItem	:= {}
