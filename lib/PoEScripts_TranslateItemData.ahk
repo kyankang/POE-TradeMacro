@@ -44,7 +44,7 @@ PoEScripts_TranslateItemData(data, langData, locale, ByRef retObj = "", ByRef st
 	regex.magicItem.es	:= "im)(?:de la|del)\s[\w]+(.*)|([\w]+\sde\s[\w]+.*)|(.*)(?:de la|del)"
 	
 	If (locale == "ko") {
-		regex.magicItem.ko	:= "(.*)"
+		regex.magicItem.ko	:= "(.*)((\s-?)(.*?))"
 	}
 	
 	lang := new TranslationHelpers(langData, regex)
